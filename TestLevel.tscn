@@ -1,0 +1,46 @@
+[gd_scene load_steps=5 format=3 uid="uid://dsytduvwofbnd"]
+
+[ext_resource type="PackedScene" uid="uid://b6atsdvt0yrew" path="res://Player.tscn" id="1_2o1bn"]
+[ext_resource type="Texture2D" uid="uid://cyekaodnxnvbk" path="res://assets/Super Grotto Escape Files/Environment/Layers/tileset.png" id="2_o6b6y"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6dral"]
+atlas = ExtResource("2_o6b6y")
+region = Rect2(16, 64, 64, 32)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nkeyo"]
+size = Vector2(384.5, 34)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_2o1bn")]
+position = Vector2(259, 106)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D"]
+position = Vector2(288, 368)
+texture = SubResource("AtlasTexture_6dral")
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D/Sprite2D"]
+position = Vector2(64, 0)
+texture = SubResource("AtlasTexture_6dral")
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D/Sprite2D/Sprite2D"]
+position = Vector2(64, 0)
+texture = SubResource("AtlasTexture_6dral")
+
+[node name="Sprite2D2" type="Sprite2D" parent="StaticBody2D/Sprite2D"]
+position = Vector2(192, 0)
+texture = SubResource("AtlasTexture_6dral")
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D/Sprite2D/Sprite2D2"]
+position = Vector2(64, 0)
+texture = SubResource("AtlasTexture_6dral")
+
+[node name="Sprite2D" type="Sprite2D" parent="StaticBody2D/Sprite2D/Sprite2D2/Sprite2D"]
+position = Vector2(64, 0)
+texture = SubResource("AtlasTexture_6dral")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(447.75, 367)
+shape = SubResource("RectangleShape2D_nkeyo")

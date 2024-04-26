@@ -1,0 +1,98 @@
+[gd_scene load_steps=18 format=3 uid="uid://b6atsdvt0yrew"]
+
+[ext_resource type="Texture2D" uid="uid://buyr5y65a2mbn" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/player-jump2.png" id="1_iapub"]
+[ext_resource type="Script" path="res://Player/Scripts/Player.gd" id="1_nqc1i"]
+[ext_resource type="Texture2D" uid="uid://bomssfev1l5it" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle1.png" id="2_uqc1w"]
+[ext_resource type="Texture2D" uid="uid://b7cooiiw8lcjg" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle2.png" id="3_cvjvs"]
+[ext_resource type="Texture2D" uid="uid://07qba7d4aff2" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle3.png" id="4_papdo"]
+[ext_resource type="Texture2D" uid="uid://dyvsj6q2fl8my" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle4.png" id="5_jwvrh"]
+[ext_resource type="Texture2D" uid="uid://dq7e70fniev3s" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle5.png" id="6_qov22"]
+[ext_resource type="Texture2D" uid="uid://d4ghyyhq6uwd2" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle6.png" id="7_tt56s"]
+[ext_resource type="Texture2D" uid="uid://2lmj4hgonkyh" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/player-jump1.png" id="8_t007y"]
+[ext_resource type="Texture2D" uid="uid://b6cr7gpe6uhgy" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run1.png" id="9_8xtn5"]
+[ext_resource type="Texture2D" uid="uid://pvsrriiesqno" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run2.png" id="10_gpvwq"]
+[ext_resource type="Texture2D" uid="uid://6d4tg418yrb0" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run3.png" id="11_j2p2n"]
+[ext_resource type="Texture2D" uid="uid://pafb7yxvd6bw" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run4.png" id="12_iwuff"]
+[ext_resource type="Texture2D" uid="uid://bsu5odcn3acmm" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run5.png" id="13_dw5bu"]
+[ext_resource type="Texture2D" uid="uid://cxdlowpxyed3u" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run6.png" id="14_g851k"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_l1y3o"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_iapub")
+}],
+"loop": true,
+"name": &"Fall",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_uqc1w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_cvjvs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_papdo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_jwvrh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_qov22")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_tt56s")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_t007y")
+}],
+"loop": true,
+"name": &"Jump",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("9_8xtn5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_gpvwq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_j2p2n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_iwuff")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_dw5bu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_g851k")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 7.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lcwdo"]
+size = Vector2(22, 29)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_nqc1i")
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_l1y3o")
+animation = &"Run"
+frame = 1
+frame_progress = 0.383087
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 4.5)
+shape = SubResource("RectangleShape2D_lcwdo")
