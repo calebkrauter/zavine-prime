@@ -1,4 +1,4 @@
-[gd_scene load_steps=21 format=3 uid="uid://b6atsdvt0yrew"]
+[gd_scene load_steps=23 format=3 uid="uid://b6atsdvt0yrew"]
 
 [ext_resource type="Texture2D" uid="uid://buyr5y65a2mbn" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/player-jump2.png" id="1_iapub"]
 [ext_resource type="Script" path="res://Player/Scripts/Player.gd" id="1_nqc1i"]
@@ -18,6 +18,8 @@
 [ext_resource type="Script" path="res://StateMachine.gd" id="16_c4g1p"]
 [ext_resource type="Script" path="res://IdlePlayerState.gd" id="17_ihpen"]
 [ext_resource type="Script" path="res://RunningPlayerState.gd" id="18_q4jbb"]
+[ext_resource type="Script" path="res://JumpPlayerState.gd" id="19_2xdon"]
+[ext_resource type="Script" path="res://FallPlayerState.gd" id="20_qsfas"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_l1y3o"]
 animations = [{
@@ -109,3 +111,9 @@ script = ExtResource("17_ihpen")
 
 [node name="RunningPlayerState" type="Node" parent="PlayerStateMachine"]
 script = ExtResource("18_q4jbb")
+
+[node name="JumpPlayerState" type="Node" parent="PlayerStateMachine"]
+script = ExtResource("19_2xdon")
+
+[node name="FallPlayerState" type="Node" parent="PlayerStateMachine"]
+script = ExtResource("20_qsfas")
