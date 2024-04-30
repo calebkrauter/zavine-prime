@@ -17,6 +17,77 @@ position = Vector2(259, 106)
 
 [node name="Ground" type="StaticBody2D" parent="."]
 
+[node name="Sprite2D19" type="Sprite2D" parent="Ground"]
+position = Vector2(1128, 384)
+texture = SubResource("AtlasTexture_6dral")
+
+[node name="Sprite2D20" type="Sprite2D" parent="Ground"]
+position = Vector2(1192, 384)
+texture = SubResource("AtlasTexture_6dral")
+
+[node name="Sprite2D21" type="Sprite2D" parent="Ground"]
+position = Vector2(1256, 384)
+texture = SubResource("AtlasTexture_6dral")
+
+[node name="Sprite2D22" type="Sprite2D" parent="Ground"]
+position = Vector2(1384, 384)
+texture = SubResource("AtlasTexture_6dral")
+
+[node name="Sprite2D23" type="Sprite2D" parent="Ground"]
+position = Vector2(1320, 384)
+texture = SubResource("AtlasTexture_6dral")
+
+[node name="Sprite2D24" type="Sprite2D" parent="Ground"]
+position = Vector2(1064, 384)
+texture = SubResource("AtlasTexture_6dral")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Ground"]
+z_index = 1
+position = Vector2(1224, 384)
+shape = SubResource("RectangleShape2D_nkeyo")
+
+[node name="Sprite2D18" type="Sprite2D" parent="Ground"]
+position = Vector2(1424, 560)
+rotation = 0.220767
+scale = Vector2(4.81988, 1.23696)
+texture = SubResource("AtlasTexture_6dral")
+offset = Vector2(-136, -8)
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Ground"]
+z_index = 1
+position = Vector2(824, 416)
+rotation = 0.214109
+shape = SubResource("RectangleShape2D_nkeyo")
+
+[node name="Sprite2D7" type="Sprite2D" parent="Ground"]
+position = Vector2(104, 200)
+texture = SubResource("AtlasTexture_6dral")
+
+[node name="Sprite2D8" type="Sprite2D" parent="Ground"]
+position = Vector2(168, 200)
+texture = SubResource("AtlasTexture_6dral")
+
+[node name="Sprite2D9" type="Sprite2D" parent="Ground"]
+position = Vector2(232, 200)
+texture = SubResource("AtlasTexture_6dral")
+
+[node name="Sprite2D10" type="Sprite2D" parent="Ground"]
+position = Vector2(360, 200)
+texture = SubResource("AtlasTexture_6dral")
+
+[node name="Sprite2D11" type="Sprite2D" parent="Ground"]
+position = Vector2(296, 200)
+texture = SubResource("AtlasTexture_6dral")
+
+[node name="Sprite2D12" type="Sprite2D" parent="Ground"]
+position = Vector2(40, 200)
+texture = SubResource("AtlasTexture_6dral")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ground"]
+z_index = 1
+position = Vector2(200, 200)
+shape = SubResource("RectangleShape2D_nkeyo")
+
 [node name="Sprite2D2" type="Sprite2D" parent="Ground"]
 position = Vector2(352, 368)
 texture = SubResource("AtlasTexture_6dral")

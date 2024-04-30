@@ -1,8 +1,4 @@
-res://Player.tscn
 res://TestLevel.tscn
-res://IdlePlayerState.gd
-res://State.gd
 res://Player/Scripts/Player.gd
 res://RunningPlayerState.gd
-res://JumpPlayerState.gd
-res://FallPlayerState.gd
+res://Player.tscn

@@ -117,3 +117,14 @@ script = ExtResource("19_2xdon")
 
 [node name="FallPlayerState" type="Node" parent="PlayerStateMachine"]
 script = ExtResource("20_qsfas")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(1.515, 1.515)
+position_smoothing_enabled = true
+position_smoothing_speed = 1.715
+drag_horizontal_offset = -0.06
+drag_left_margin = 0.55
+drag_top_margin = 0.45
+drag_right_margin = 0.55
+editor_draw_limits = true
+editor_draw_drag_margin = true
