@@ -1,19 +1,19 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1714605479
+::res://::1714612305
 FallPlayerState.gd::GDScript::-1::1714431541::0::1::::FallPlayerState<>State<>::
 icon.svg::CompressedTexture2D::3921026682255503151::1714082504::1714082508::1::::<><>::
 IdlePlayerState.gd::GDScript::-1::1714431838::0::1::::IdlePlayerState<>State<>::
 JumpPlayerState.gd::GDScript::-1::1714431245::0::1::::JumpPlayerState<>State<>::
-Player.tscn::PackedScene::4563460794533543634::1714605478::0::1::::<><>::uid://buyr5y65a2mbn::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/player-jump2.png<>res://Player/Scripts/Player.gd<>uid://bomssfev1l5it::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle1.png<>uid://b7cooiiw8lcjg::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle2.png<>uid://07qba7d4aff2::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle3.png<>uid://dyvsj6q2fl8my::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle4.png<>uid://dq7e70fniev3s::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle5.png<>uid://d4ghyyhq6uwd2::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle6.png<>uid://2lmj4hgonkyh::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/player-jump1.png<>uid://b6cr7gpe6uhgy::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run1.png<>uid://pvsrriiesqno::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run2.png<>uid://6d4tg418yrb0::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run3.png<>uid://pafb7yxvd6bw::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run4.png<>uid://bsu5odcn3acmm::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run5.png<>uid://cxdlowpxyed3u::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run6.png<>res://StateMachine.gd<>res://IdlePlayerState.gd<>res://RunningPlayerState.gd<>res://JumpPlayerState.gd<>res://FallPlayerState.gd
+Player.tscn::PackedScene::4563460794533543634::1714612305::0::1::::<><>::uid://buyr5y65a2mbn::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/player-jump2.png<>res://Player/Scripts/Player.gd<>uid://bomssfev1l5it::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle1.png<>uid://b7cooiiw8lcjg::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle2.png<>uid://07qba7d4aff2::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle3.png<>uid://dyvsj6q2fl8my::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle4.png<>uid://dq7e70fniev3s::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle5.png<>uid://d4ghyyhq6uwd2::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle6.png<>uid://2lmj4hgonkyh::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/player-jump1.png<>uid://b6cr7gpe6uhgy::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run1.png<>uid://pvsrriiesqno::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run2.png<>uid://6d4tg418yrb0::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run3.png<>uid://pafb7yxvd6bw::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run4.png<>uid://bsu5odcn3acmm::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run5.png<>uid://cxdlowpxyed3u::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run6.png<>res://StateMachine.gd<>res://IdlePlayerState.gd<>res://RunningPlayerState.gd<>res://JumpPlayerState.gd<>res://FallPlayerState.gd
 README.md::TextFile::-1::1714139308::0::1::::<><>::
-RunningPlayerState.gd::GDScript::-1::1714603823::0::1::::RunningPlayerState<>State<>::
+RunningPlayerState.gd::GDScript::-1::1714611828::0::1::::RunningPlayerState<>State<>::
 State.gd::GDScript::-1::1714428177::0::1::::State<>Node<>::
 StateMachine.gd::GDScript::-1::1714148270::0::1::::StateMachine<>Node<>::
-TestLevel.tscn::PackedScene::8473366366831979977::1714605479::0::1::::<><>::uid://b6atsdvt0yrew::::res://Player.tscn<>uid://cyekaodnxnvbk::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset.png<>uid://cdm5ok10llfrb::::res://Art/Textures/Tilesets/new_tile_set.tres
+TestLevel.tscn::PackedScene::8473366366831979977::1714612305::0::1::::<><>::uid://b6atsdvt0yrew::::res://Player.tscn<>uid://cyekaodnxnvbk::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset.png<>uid://cdm5ok10llfrb::::res://Art/Textures/Tilesets/new_tile_set.tres
 ::res://Art/::1714603489
 ::res://Art/Textures/::1714603504
-::res://Art/Textures/Tilesets/::1714605423
-new_tile_set.tres::TileSet::5010027508796119295::1714605423::0::1::::<><>::uid://mrifyraysl2s::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset-2.png<>uid://cyekaodnxnvbk::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset.png
+::res://Art/Textures/Tilesets/::1714611828
+new_tile_set.tres::TileSet::5010027508796119295::1714611828::0::1::::<><>::uid://mrifyraysl2s::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset-2.png<>uid://cyekaodnxnvbk::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset.png
 ::res://assets/::1714082602
 ::res://assets/Super Grotto Escape Files/::1714082599
 public-license.txt::TextFile::-1::1714082598::0::1::::<><>::
@@ -512,8 +512,9 @@ fan.png::CompressedTexture2D::6215583720146627049::1714082599::1714082619::1::::
 ._fan.png::::-1::0::0::0::::<><>::
 ::res://Audio/::1714082522
 ::res://Code/::1714082522
-::res://Levels/::1714082522
+::res://Levels/::1714612305
+virticalSlice.tscn::PackedScene::6410842580335381771::1714612305::0::1::::<><>::uid://bwa7wya7rg65i::::res://assets/Super Grotto Escape Files/Environment/Layers/back.png<>uid://c0w85jvxchuh5::::res://assets/Super Grotto Escape Files/Environment/Layers/far.png<>uid://bodv7g7yjdwj0::::res://assets/Super Grotto Escape Files/Environment/Layers/middle.png<>uid://b6atsdvt0yrew::::res://Player.tscn
 ::res://Levels/Scenes/::1714082535
 ::res://Player/::1714089318
-::res://Player/Scripts/::1714603823
-Player.gd::GDScript::-1::1714603823::0::1::::Player<>CharacterBody2D<>::
+::res://Player/Scripts/::1714611828
+Player.gd::GDScript::-1::1714611827::0::1::::Player<>CharacterBody2D<>::
