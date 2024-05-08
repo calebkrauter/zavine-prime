@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://cgwc1h3ofpoc7"]
+
+[ext_resource type="Script" path="res://user_interface.gd" id="1_ub7dm"]
+[ext_resource type="PackedScene" uid="uid://315uis8lx0om" path="res://health_container.tscn" id="1_y2hbj"]
+
+[node name="UserInterface" type="CanvasLayer"]
+script = ExtResource("1_ub7dm")
+
+[node name="HealthContainer" parent="." instance=ExtResource("1_y2hbj")]
+scale = Vector2(1.10057, 0.892024)

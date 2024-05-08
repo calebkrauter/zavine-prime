@@ -6,11 +6,12 @@ extends CharacterBody2D
 @export var acceleration: float = 0.25
 @export var gravity: float = 500.0
 @export var jump_velocity: float = 200.0
+@export var max_health: int = 10
 
 @onready var sprite: AnimatedSprite2D = $Sprite
 
 func _ready() -> void:
-	pass
+	Global.UI.health_container.create_health(max_health)
 	
 func _process(delta: float) -> void:
 	pass
