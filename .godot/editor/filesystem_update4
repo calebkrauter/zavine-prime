@@ -4,3 +4,4 @@ res://RunningPlayerState.gd
 res://Art/Textures/Tilesets/new_tile_set.tres
 res://Player.tscn
 res://Levels/virticalSlice.tscn
+res://IdlePlayerState.gd
