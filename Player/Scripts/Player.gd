@@ -10,11 +10,15 @@ extends CharacterBody2D
 
 @onready var sprite: AnimatedSprite2D = $Sprite
 
+var health: int
+var taking_damage: bool = false
+
 func _ready() -> void:
 	Global.UI.health_container.create_health(max_health)
-	
+	health = max_health
 func _process(delta: float) -> void:
-	pass
+	if Input.is_action_just_pressed("jump"):
+		take_damage()
 	
 func get_input_vector() -> Vector2:
 	var input_vector = Vector2.ZERO
@@ -35,8 +39,19 @@ func apply_velocity(delta: float) -> void:
 func apply_jump() -> void:
 	velocity.y -= jump_velocity
 
+func apply_damage_jump() -> void:
+	velocity.y = -jump_velocity * 1.5
+	velocity.x = -100.0
+
 func change_direction(direction) -> void:
 	if sign(direction) == -1:
 		sprite.flip_h = true
 	elif sign(direction) == 1:
 		sprite.flip_h = false
+
+
+func take_damage() -> void:
+	health -= 1
+	Global.UI.health_container.update_health(health)
+	if health == 0:
+		Global.UI.game_over.set_visible(true)

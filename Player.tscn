@@ -1,10 +1,12 @@
-[gd_scene load_steps=24 format=3 uid="uid://b6atsdvt0yrew"]
+[gd_scene load_steps=27 format=3 uid="uid://b6atsdvt0yrew"]
 
 [ext_resource type="Texture2D" uid="uid://buyr5y65a2mbn" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/player-jump2.png" id="1_iapub"]
 [ext_resource type="Script" path="res://Player/Scripts/Player.gd" id="1_nqc1i"]
 [ext_resource type="PackedScene" uid="uid://cgwc1h3ofpoc7" path="res://user_interface.tscn" id="2_25tro"]
 [ext_resource type="Texture2D" uid="uid://bomssfev1l5it" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle1.png" id="2_uqc1w"]
 [ext_resource type="Texture2D" uid="uid://b7cooiiw8lcjg" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle2.png" id="3_cvjvs"]
+[ext_resource type="Texture2D" uid="uid://cx5rf514mj8dc" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-Hurt/player-hurt1.png" id="3_vcpd5"]
+[ext_resource type="Texture2D" uid="uid://b1ypkcms1iobb" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-Hurt/player-hurt2.png" id="4_47pvg"]
 [ext_resource type="Texture2D" uid="uid://07qba7d4aff2" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle3.png" id="4_papdo"]
 [ext_resource type="Texture2D" uid="uid://dyvsj6q2fl8my" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle4.png" id="5_jwvrh"]
 [ext_resource type="Texture2D" uid="uid://dq7e70fniev3s" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle5.png" id="6_qov22"]
@@ -21,9 +23,21 @@
 [ext_resource type="Script" path="res://RunningPlayerState.gd" id="18_q4jbb"]
 [ext_resource type="Script" path="res://JumpPlayerState.gd" id="19_2xdon"]
 [ext_resource type="Script" path="res://FallPlayerState.gd" id="20_qsfas"]
+[ext_resource type="Script" path="res://DamagePlayerState.gd" id="24_7mf6w"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_l1y3o"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_vcpd5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_47pvg")
+}],
+"loop": true,
+"name": &"Damage",
+"speed": 7.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("1_iapub")
@@ -98,8 +112,7 @@ script = ExtResource("1_nqc1i")
 
 [node name="Sprite" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_l1y3o")
-animation = &"Run"
-frame_progress = 0.295694
+animation = &"Damage"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(1, 3.5)
@@ -121,6 +134,9 @@ script = ExtResource("19_2xdon")
 
 [node name="FallPlayerState" type="Node" parent="PlayerStateMachine"]
 script = ExtResource("20_qsfas")
+
+[node name="DamagePlayerState" type="Node" parent="PlayerStateMachine"]
+script = ExtResource("24_7mf6w")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 scale = Vector2(9.12, 0.973122)
