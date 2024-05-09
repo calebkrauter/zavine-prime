@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=3 uid="uid://cxlpv1uudjmkp"]
+[gd_scene load_steps=25 format=3 uid="uid://cxlpv1uudjmkp"]
 
 [ext_resource type="Texture2D" uid="uid://bwa7wya7rg65i" path="res://assets/Super Grotto Escape Files/Environment/Layers/back.png" id="1_074tc"]
 [ext_resource type="Texture2D" uid="uid://c0w85jvxchuh5" path="res://assets/Super Grotto Escape Files/Environment/Layers/far.png" id="2_v8kid"]
@@ -11,6 +11,7 @@
 [ext_resource type="Texture2D" uid="uid://un2e63mc30t7" path="res://assets/Super Grotto Escape Files/Props/Previews/all-sprites.png" id="9_jgofk"]
 [ext_resource type="Texture2D" uid="uid://dgn6r35n5xxqf" path="res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png" id="10_ap0ii"]
 [ext_resource type="Texture2D" uid="uid://payt543kaycq" path="res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery2.png" id="11_h7cwn"]
+[ext_resource type="PackedScene" uid="uid://jjweuxw1uuqy" path="res://health_item_pickup.tscn" id="12_1eo82"]
 [ext_resource type="PackedScene" uid="uid://ctqnvj8hrk3yi" path="res://damage_zone.tscn" id="12_b7j17"]
 [ext_resource type="PackedScene" uid="uid://b6atsdvt0yrew" path="res://Player.tscn" id="12_n6b4e"]
 
@@ -1718,5 +1719,25 @@ scale = Vector2(15.9585, 1.03627)
 position = Vector2(943.005, 366.839)
 scale = Vector2(3.27979, 1)
 
+[node name="Node" type="Node" parent="TileMap"]
+
+[node name="HealthItemPickup5" parent="TileMap/Node" instance=ExtResource("12_1eo82")]
+position = Vector2(99, -149)
+
+[node name="HealthItemPickup4" parent="TileMap/Node" instance=ExtResource("12_1eo82")]
+position = Vector2(874, 205)
+
+[node name="HealthItemPickup2" parent="TileMap/Node" instance=ExtResource("12_1eo82")]
+position = Vector2(-207, 322)
+scale = Vector2(0.965, 0.965)
+
+[node name="HealthItemPickup" parent="TileMap/Node" instance=ExtResource("12_1eo82")]
+position = Vector2(-24, 218)
+scale = Vector2(0.965, 0.965)
+
+[node name="HealthItemPickup3" parent="TileMap/Node" instance=ExtResource("12_1eo82")]
+position = Vector2(320, 216)
+scale = Vector2(0.965, 0.965)
+
 [node name="Player" parent="." instance=ExtResource("12_n6b4e")]
-position = Vector2(-727, -180)
+position = Vector2(-186, 68)

@@ -102,7 +102,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lcwdo"]
-size = Vector2(14, 31)
+size = Vector2(14, 28)
 
 [node name="Player" type="CharacterBody2D"]
 position = Vector2(-2, -3)
@@ -115,7 +115,7 @@ sprite_frames = SubResource("SpriteFrames_l1y3o")
 animation = &"Damage"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(1, 3.5)
+position = Vector2(1, 5)
 shape = SubResource("RectangleShape2D_lcwdo")
 debug_color = Color(0, 0.6, 0.701961, 0.419608)
 

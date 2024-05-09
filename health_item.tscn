@@ -14,5 +14,6 @@ theme_override_styles/panel = SubResource("StyleBoxEmpty_2e5gb")
 script = ExtResource("1_28ph1")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -9.53674e-07)
 texture = ExtResource("1_yfsu6")
 centered = false

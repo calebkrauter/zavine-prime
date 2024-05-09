@@ -17,8 +17,7 @@ func _ready() -> void:
 	Global.UI.health_container.create_health(max_health)
 	health = max_health
 func _process(delta: float) -> void:
-	if Input.is_action_just_pressed("jump"):
-		take_damage()
+	pass
 	
 func get_input_vector() -> Vector2:
 	var input_vector = Vector2.ZERO
@@ -55,3 +54,8 @@ func take_damage() -> void:
 	Global.UI.health_container.update_health(health)
 	if health == 0:
 		Global.UI.game_over.set_visible(true)
+
+func add_health() -> void:
+	if health < max_health:
+		health += 1
+		Global.UI.health_container.update_health(health)

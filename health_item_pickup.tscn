@@ -1,0 +1,50 @@
+[gd_scene load_steps=8 format=3 uid="uid://jjweuxw1uuqy"]
+
+[ext_resource type="Script" path="res://health_item_pickup.gd" id="1_i5b5s"]
+[ext_resource type="Texture2D" uid="uid://dgn6r35n5xxqf" path="res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png" id="1_nmodd"]
+[ext_resource type="Texture2D" uid="uid://payt543kaycq" path="res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery2.png" id="2_wi6t5"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wbj5y"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_nmodd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_wi6t5")
+}],
+"loop": true,
+"name": &"default",
+"speed": 7.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_6rjbo"]
+radius = 7.0
+height = 22.0
+
+[sub_resource type="Gradient" id="Gradient_1x2gi"]
+offsets = PackedFloat32Array(0, 0.663594, 1)
+colors = PackedColorArray(1, 1, 1, 1, 0.477747, 1.05888e-06, 0.292238, 0.878431, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_bjxhb"]
+gradient = SubResource("Gradient_1x2gi")
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.755, 0.065)
+
+[node name="HealthItemPickup" type="Area2D"]
+script = ExtResource("1_i5b5s")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_wbj5y")
+frame_progress = 0.193989
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -1)
+shape = SubResource("CapsuleShape2D_6rjbo")
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+position = Vector2(0, -1)
+texture = SubResource("GradientTexture2D_bjxhb")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

@@ -1,8 +1,10 @@
+Node
+PointLight2D
+CollisionShape2D
+AnimatedSprite2D
+Area2D
 Label
 ColorRect
-Node
-CollisionShape2D
-Area2D
 HBoxContainer
 Sprite2D
 Panel
@@ -10,5 +12,3 @@ CanvasLayer
 TextureProgressBar
 ProgressBar
 TextureRect
-Control
-Player
