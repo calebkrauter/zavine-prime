@@ -1,0 +1,52 @@
+[gd_scene load_steps=10 format=3 uid="uid://dix0kwtfpx6hg"]
+
+[ext_resource type="Texture2D" uid="uid://drpao0e0d18lk" path="res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-3.png" id="1_3vssl"]
+[ext_resource type="Script" path="res://powerup.gd" id="1_67iv7"]
+[ext_resource type="Texture2D" uid="uid://c2ooqukndbpeq" path="res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-2.png" id="2_cx0gt"]
+[ext_resource type="Texture2D" uid="uid://cb46g8gckgnq5" path="res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-5.png" id="3_e1ghl"]
+[ext_resource type="Texture2D" uid="uid://j8a3k3qc02rr" path="res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-4.png" id="4_i54yd"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fb53t"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_3vssl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_cx0gt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_e1ghl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_i54yd")
+}],
+"loop": true,
+"name": &"default",
+"speed": 7.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ho0ds"]
+
+[sub_resource type="Gradient" id="Gradient_a3tsj"]
+colors = PackedColorArray(0.696613, 1, 0.995813, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_joewc"]
+gradient = SubResource("Gradient_a3tsj")
+fill = 1
+fill_from = Vector2(0.478632, 0.487179)
+
+[node name="Powerup" type="Area2D"]
+script = ExtResource("1_67iv7")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_fb53t")
+frame_progress = 0.112719
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_ho0ds")
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+texture = SubResource("GradientTexture2D_joewc")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

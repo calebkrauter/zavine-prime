@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=3 uid="uid://cxlpv1uudjmkp"]
+[gd_scene load_steps=26 format=3 uid="uid://cxlpv1uudjmkp"]
 
 [ext_resource type="Texture2D" uid="uid://bwa7wya7rg65i" path="res://assets/Super Grotto Escape Files/Environment/Layers/back.png" id="1_074tc"]
 [ext_resource type="Texture2D" uid="uid://c0w85jvxchuh5" path="res://assets/Super Grotto Escape Files/Environment/Layers/far.png" id="2_v8kid"]
@@ -14,6 +14,7 @@
 [ext_resource type="PackedScene" uid="uid://jjweuxw1uuqy" path="res://health_item_pickup.tscn" id="12_1eo82"]
 [ext_resource type="PackedScene" uid="uid://ctqnvj8hrk3yi" path="res://damage_zone.tscn" id="12_b7j17"]
 [ext_resource type="PackedScene" uid="uid://b6atsdvt0yrew" path="res://Player.tscn" id="12_n6b4e"]
+[ext_resource type="PackedScene" uid="uid://dix0kwtfpx6hg" path="res://powerup.tscn" id="13_lmvj6"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_fdmj0"]
 
@@ -1718,6 +1719,17 @@ scale = Vector2(15.9585, 1.03627)
 [node name="DamageZone7" parent="TileMap" instance=ExtResource("12_b7j17")]
 position = Vector2(943.005, 366.839)
 scale = Vector2(3.27979, 1)
+
+[node name="PowerUps" type="Node" parent="TileMap"]
+
+[node name="Powerup3" parent="TileMap/PowerUps" instance=ExtResource("13_lmvj6")]
+position = Vector2(209, -90)
+
+[node name="Powerup2" parent="TileMap/PowerUps" instance=ExtResource("13_lmvj6")]
+position = Vector2(753, 215)
+
+[node name="Powerup" parent="TileMap/PowerUps" instance=ExtResource("13_lmvj6")]
+position = Vector2(-177, 155)
 
 [node name="Node" type="Node" parent="TileMap"]
 

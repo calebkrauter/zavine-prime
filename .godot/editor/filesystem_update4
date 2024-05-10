@@ -1,13 +1,12 @@
-res://health_item_pickup.tscn
 res://Player/Scripts/Player.gd
 res://IdlePlayerState.gd
 res://RunningPlayerState.gd
 res://Art/Textures/Tilesets/new_tile_set.tres
+res://powerup.gd
+res://powerup.tscn
 res://Levels/virticalSlice.tscn
 res://TestLevel.tscn
 res://Player.tscn
-res://user_interface.tscn
 res://health_item.tscn
 res://health_container.tscn
 res://damage_zone.tscn
-res://health_item_pickup.gd

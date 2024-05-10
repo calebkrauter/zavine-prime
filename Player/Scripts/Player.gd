@@ -7,6 +7,7 @@ extends CharacterBody2D
 @export var gravity: float = 500.0
 @export var jump_velocity: float = 200.0
 @export var max_health: int = 10
+@export var jump_velocity_boost: int = 300.0
 
 @onready var sprite: AnimatedSprite2D = $Sprite
 
@@ -59,3 +60,10 @@ func add_health() -> void:
 	if health < max_health:
 		health += 1
 		Global.UI.health_container.update_health(health)
+
+
+func powerup_jump() -> void:
+	var jump_velocity_old = jump_velocity
+	jump_velocity = jump_velocity_boost
+	await get_tree().create_timer(3).timeout
+	jump_velocity = jump_velocity_old
