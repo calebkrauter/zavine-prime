@@ -1,536 +1,342 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1715378824
-CollisionShape2D.gd::GDScript::-1::1715209696::0::1::::<>CollisionShape2D<>::
-DamagePlayerState.gd::GDScript::-1::1715209336::0::1::::DamagePlayerState<>State<>::
-damage_zone.tscn::PackedScene::6140286787181629608::1715378824::0::1::::<><>::res://CollisionShape2D.gd
-FallPlayerState.gd::GDScript::-1::1715208929::0::1::::FallPlayerState<>State<>::
-global.gd::GDScript::-1::1715143758::0::1::::<>Node<>::
-health.tscn::PackedScene::8256290193014872600::1715143194::0::1::::<><>::uid://dgn6r35n5xxqf::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png
-health_container.gd::GDScript::-1::1715207557::0::1::::<>HBoxContainer<>::
-health_container.tscn::PackedScene::2020819118639835476::1715378823::0::1::::<><>::res://health_container.gd
-health_item.gd::GDScript::-1::1715206679::0::1::::<>Panel<>::
-health_item.tscn::PackedScene::5767503342606908303::1715378823::0::1::::<><>::res://health_item.gd<>uid://dgn6r35n5xxqf::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png
-health_item_pickup.gd::GDScript::-1::1715294502::0::1::::<>Area2D<>::
-health_item_pickup.tscn::PackedScene::651622996577949512::1715294712::0::1::::<><>::res://health_item_pickup.gd<>uid://dgn6r35n5xxqf::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png<>uid://payt543kaycq::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery2.png
-icon.svg::CompressedTexture2D::3921026682255503151::1714082504::1714082508::1::::<><>::
-IdlePlayerState.gd::GDScript::-1::1715378366::0::1::::IdlePlayerState<>State<>::
-JumpPlayerState.gd::GDScript::-1::1714431245::0::1::::JumpPlayerState<>State<>::
-Player.tscn::PackedScene::4563460794533543634::1715378884::0::1::::<><>::uid://buyr5y65a2mbn::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/player-jump2.png<>res://Player/Scripts/Player.gd<>uid://cgwc1h3ofpoc7::::res://user_interface.tscn<>uid://bomssfev1l5it::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle1.png<>uid://b7cooiiw8lcjg::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle2.png<>uid://cx5rf514mj8dc::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-Hurt/player-hurt1.png<>uid://b1ypkcms1iobb::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-Hurt/player-hurt2.png<>uid://07qba7d4aff2::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle3.png<>uid://dyvsj6q2fl8my::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle4.png<>uid://dq7e70fniev3s::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle5.png<>uid://d4ghyyhq6uwd2::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle6.png<>uid://2lmj4hgonkyh::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/player-jump1.png<>uid://b6cr7gpe6uhgy::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run1.png<>uid://pvsrriiesqno::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run2.png<>uid://6d4tg418yrb0::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run3.png<>uid://pafb7yxvd6bw::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run4.png<>uid://bsu5odcn3acmm::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run5.png<>uid://cxdlowpxyed3u::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run6.png<>res://StateMachine.gd<>res://IdlePlayerState.gd<>res://RunningPlayerState.gd<>res://JumpPlayerState.gd<>res://FallPlayerState.gd<>res://DamagePlayerState.gd
-README.md::TextFile::-1::1714139308::0::1::::<><>::
-powerup.tscn::PackedScene::7769790456398296952::1715378824::0::1::::<><>::uid://drpao0e0d18lk::::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-3.png<>res://powerup.gd<>uid://c2ooqukndbpeq::::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-2.png<>uid://cb46g8gckgnq5::::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-5.png<>uid://j8a3k3qc02rr::::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-4.png
-powerup.gd::GDScript::-1::1715378427::0::1::::<>Area2D<>::
-RunningPlayerState.gd::GDScript::-1::1715378366::0::1::::RunningPlayerState<>State<>::
-State.gd::GDScript::-1::1714428177::0::1::::State<>Node<>::
-StateMachine.gd::GDScript::-1::1714148270::0::1::::StateMachine<>Node<>::
-TestLevel.tscn::PackedScene::8473366366831979977::1715378884::0::1::::<><>::uid://b6atsdvt0yrew::::res://Player.tscn<>uid://cyekaodnxnvbk::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset.png<>uid://cdm5ok10llfrb::::res://Art/Textures/Tilesets/new_tile_set.tres
-ui.tscn::PackedScene::8027886798417141507::1715142644::0::1::::<><>::
-user_interface.gd::GDScript::-1::1715209890::0::1::::UserInterface<>CanvasLayer<>::
-user_interface.tscn::PackedScene::5239559015992129828::1715294021::0::1::::<><>::res://user_interface.gd<>uid://315uis8lx0om::::res://health_container.tscn
-::res://Art/::1714603489
-::res://Art/Textures/::1714603504
-::res://Art/Textures/Tilesets/::1715378367
-new_tile_set.tres::TileSet::5010027508796119295::1715378367::0::1::::<><>::uid://mrifyraysl2s::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset-2.png<>uid://cyekaodnxnvbk::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset.png
-::res://assets/::1714082602
-::res://assets/Super Grotto Escape Files/::1714082599
-public-license.txt::TextFile::-1::1714082598::0::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/::1714082601
-::res://assets/Super Grotto Escape Files/Characters/Enemies/::1714082601
-::res://assets/Super Grotto Escape Files/Characters/Enemies/Aseprite/::1714082599
-::res://assets/Super Grotto Escape Files/Characters/Enemies/Previews/::1714082601
-::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/::1714082600
-::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Bat/::1714082619
-bat1.png::CompressedTexture2D::2906916740932329434::1714082600::1714082619::1::::<><>::
-bat2.png::CompressedTexture2D::7025220310287453852::1714082600::1714082619::1::::<><>::
-bat3.png::CompressedTexture2D::148600924636166474::1714082600::1714082619::1::::<><>::
-bat4.png::CompressedTexture2D::4861878844516031240::1714082600::1714082619::1::::<><>::
-bat5.png::CompressedTexture2D::5138493775910378456::1714082600::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Fireball/::1714082619
-fireball1.png::CompressedTexture2D::1969658177609824458::1714082600::1714082619::1::::<><>::
-fireball2.png::CompressedTexture2D::3932379042330781419::1714082600::1714082619::1::::<><>::
-fireball3.png::CompressedTexture2D::7147892250461162305::1714082600::1714082619::1::::<><>::
-fireball4.png::CompressedTexture2D::4188207527837859095::1714082600::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/fly-eye/::1714082619
-fly-eye1.png::CompressedTexture2D::7089406877787032199::1714082600::1714082619::1::::<><>::
-fly-eye2.png::CompressedTexture2D::6938732632241840888::1714082600::1714082619::1::::<><>::
-fly-eye3.png::CompressedTexture2D::2580315599974385456::1714082600::1714082619::1::::<><>::
-fly-eye4.png::CompressedTexture2D::5123384117944499056::1714082600::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Ghost/::1714082619
-ghost1.png::CompressedTexture2D::3347766824796329099::1714082600::1714082619::1::::<><>::
-ghost2.png::CompressedTexture2D::4271003930755027506::1714082600::1714082619::1::::<><>::
-ghost3.png::CompressedTexture2D::455924854243109711::1714082600::1714082619::1::::<><>::
-ghost4.png::CompressedTexture2D::5802727809049373243::1714082600::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Ghost-fury/::1714082619
-ghost-fury-1.png::CompressedTexture2D::5932676858799866315::1714082600::1714082619::1::::<><>::
-ghost-fury-2.png::CompressedTexture2D::5745377179386594235::1714082600::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Ghost-shocked/::1714082619
-ghost-shocked.png::CompressedTexture2D::5961997134795837072::1714082600::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Idle/::1714082619
-crab-idle1.png::CompressedTexture2D::6569718489921166881::1714082599::1714082619::1::::<><>::
-crab-idle2.png::CompressedTexture2D::5506478974836119927::1714082600::1714082619::1::::<><>::
-crab-idle3.png::CompressedTexture2D::9082381500877629197::1714082599::1714082619::1::::<><>::
-crab-idle4.png::CompressedTexture2D::7740299568647957230::1714082600::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/lizard moves/::1714082619
-lizard-move1.png::CompressedTexture2D::9156429923820228931::1714082600::1714082619::1::::<><>::
-lizard-move2.png::CompressedTexture2D::8957398984521050173::1714082600::1714082619::1::::<><>::
-lizard-move3.png::CompressedTexture2D::4399105651932109666::1714082600::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/lizard shoots/::1714082619
-lizard-shoot1.png::CompressedTexture2D::3422618248079435306::1714082600::1714082619::1::::<><>::
-lizard-shoot2.png::CompressedTexture2D::4297794320821172451::1714082600::1714082619::1::::<><>::
-lizard-shoot3.png::CompressedTexture2D::8866008796069263448::1714082600::1714082619::1::::<><>::
-lizard-shoot4.png::CompressedTexture2D::7845616415528719364::1714082600::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-IDle/::1714082619
-skeleton-idle1.png::CompressedTexture2D::6857511731735702740::1714082600::1714082619::1::::<><>::
-skeleton-idle2.png::CompressedTexture2D::8560042736396288087::1714082600::1714082619::1::::<><>::
-skeleton-idle3.png::CompressedTexture2D::8919772223272621258::1714082600::1714082619::1::::<><>::
-skeleton-idle4.png::CompressedTexture2D::2893378961254573822::1714082600::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/::1714082619
-skeleton-walk1.png::CompressedTexture2D::3219138264662282466::1714082600::1714082619::1::::<><>::
-skeleton-walk2.png::CompressedTexture2D::6928527484791475570::1714082600::1714082619::1::::<><>::
-skeleton-walk3.png::CompressedTexture2D::7205782501424073174::1714082600::1714082619::1::::<><>::
-skeleton-walk4.png::CompressedTexture2D::994613594397258026::1714082600::1714082619::1::::<><>::
-skeleton-walk5.png::CompressedTexture2D::5557160202032018072::1714082600::1714082619::1::::<><>::
-skeleton-walk6.png::CompressedTexture2D::5210063954144110382::1714082600::1714082619::1::::<><>::
-skeleton-walk7.png::CompressedTexture2D::3337527956202001292::1714082600::1714082619::1::::<><>::
-skeleton-walk8.png::CompressedTexture2D::6241002102177199410::1714082600::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Slime/::1714082619
-slime1.png::CompressedTexture2D::2805331093945413016::1714082600::1714082619::1::::<><>::
-slime2.png::CompressedTexture2D::274322263245281627::1714082600::1714082619::1::::<><>::
-slime3.png::CompressedTexture2D::6791192236779681350::1714082600::1714082619::1::::<><>::
-slime4.png::CompressedTexture2D::7761861092138973546::1714082600::1714082619::1::::<><>::
-slime5.png::CompressedTexture2D::449407825457194316::1714082600::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Walk/::1714082619
-crab-walk1.png::CompressedTexture2D::6939246814325864035::1714082600::1714082619::1::::<><>::
-crab-walk2.png::CompressedTexture2D::800935360751951717::1714082600::1714082619::1::::<><>::
-crab-walk3.png::CompressedTexture2D::2074701992131210637::1714082600::1714082619::1::::<><>::
-crab-walk4.png::CompressedTexture2D::760973144866911110::1714082600::1714082619::1::::<><>::
-crab-walk5.png::CompressedTexture2D::5987967764980364839::1714082600::1714082619::1::::<><>::
-crab-walk6.png::CompressedTexture2D::3944408957625848512::1714082600::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/Enemies/spritesheet/::1714082619
-bat.png::CompressedTexture2D::9055387055074803196::1714082601::1714082619::1::::<><>::
-crab-idle.png::CompressedTexture2D::2729928771344105836::1714082601::1714082619::1::::<><>::
-crab-walk.png::CompressedTexture2D::1689813673225560115::1714082601::1714082619::1::::<><>::
-fireball.png::CompressedTexture2D::350165757470545479::1714082601::1714082619::1::::<><>::
-fly-eye.png::CompressedTexture2D::2175946949928134722::1714082601::1714082619::1::::<><>::
-ghost-fury.png::CompressedTexture2D::5326464143776064119::1714082601::1714082619::1::::<><>::
-ghost.png::CompressedTexture2D::3086962699963964141::1714082601::1714082619::1::::<><>::
-lizard-move.png::CompressedTexture2D::1856015217339573637::1714082601::1714082619::1::::<><>::
-lizard-shoot.png::CompressedTexture2D::5234121815940368246::1714082601::1714082619::1::::<><>::
-skeleton-idle.png::CompressedTexture2D::1042716697675816581::1714082601::1714082619::1::::<><>::
-skeleton-walk.png::CompressedTexture2D::5503787421511157711::1714082601::1714082619::1::::<><>::
-slime.png::CompressedTexture2D::2432649256384735645::1714082601::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/Player/::1714082602
-::res://assets/Super Grotto Escape Files/Characters/Player/aseprite/::1714082601
-::res://assets/Super Grotto Escape Files/Characters/Player/Previews/::1714082602
-::res://assets/Super Grotto Escape Files/Characters/Player/sprites/::1714082602
-::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-duck/::1714082619
-player-duck1.png::CompressedTexture2D::4249795473923101627::1714082601::1714082619::1::::<><>::
-player-duck2.png::CompressedTexture2D::8039006993103950077::1714082601::1714082619::1::::<><>::
-player-duck3.png::CompressedTexture2D::3663160576819033831::1714082601::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-Hurt/::1714082619
-player-hurt1.png::CompressedTexture2D::6450158838728769044::1714082601::1714082619::1::::<><>::
-player-hurt2.png::CompressedTexture2D::4261804421647189883::1714082601::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/::1714082619
-player-idle1.png::CompressedTexture2D::3394962347619680563::1714082602::1714082619::1::::<><>::
-player-idle2.png::CompressedTexture2D::4637467908221005800::1714082602::1714082619::1::::<><>::
-player-idle3.png::CompressedTexture2D::1821754486367698057::1714082602::1714082619::1::::<><>::
-player-idle4.png::CompressedTexture2D::8888256863416910268::1714082602::1714082619::1::::<><>::
-player-idle5.png::CompressedTexture2D::8348644972203066014::1714082602::1714082619::1::::<><>::
-player-idle6.png::CompressedTexture2D::9207593933252922921::1714082602::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/::1714082619
-player-jump1.png::CompressedTexture2D::1918553143862503207::1714082601::1714082619::1::::<><>::
-player-jump2.png::CompressedTexture2D::3840829695058838327::1714082601::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-Ladder/::1714082619
-player-ladder1.png::CompressedTexture2D::5615648009912739440::1714082602::1714082619::1::::<><>::
-player-ladder2.png::CompressedTexture2D::3342896582964114720::1714082602::1714082619::1::::<><>::
-player-ladder3.png::CompressedTexture2D::1383259812014627041::1714082602::1714082619::1::::<><>::
-player-ladder4.png::CompressedTexture2D::5898409998316426374::1714082602::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/::1714082619
-player-run1.png::CompressedTexture2D::4567493264798340688::1714082602::1714082619::1::::<><>::
-player-run2.png::CompressedTexture2D::1097308757396863576::1714082602::1714082619::1::::<><>::
-player-run3.png::CompressedTexture2D::2183842370081415759::1714082602::1714082619::1::::<><>::
-player-run4.png::CompressedTexture2D::1053139744223965180::1714082602::1714082619::1::::<><>::
-player-run5.png::CompressedTexture2D::3692954096444281868::1714082602::1714082619::1::::<><>::
-player-run6.png::CompressedTexture2D::6394071972121243800::1714082602::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-run-shoot/::1714082619
-player-run-shoott1.png::CompressedTexture2D::9075199941026475810::1714082601::1714082619::1::::<><>::
-player-run-shoott2.png::CompressedTexture2D::9154964224259479453::1714082601::1714082619::1::::<><>::
-player-run-shoott3.png::CompressedTexture2D::3975100655464625950::1714082601::1714082619::1::::<><>::
-player-run-shoott4.png::CompressedTexture2D::942089273691784845::1714082601::1714082619::1::::<><>::
-player-run-shoott5.png::CompressedTexture2D::8952611090854301200::1714082601::1714082619::1::::<><>::
-player-run-shoott6.png::CompressedTexture2D::254880359069889253::1714082601::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-shoot/::1714082619
-player-shoot1.png::CompressedTexture2D::5712275819911157098::1714082601::1714082619::1::::<><>::
-player-shoot2.png::CompressedTexture2D::8812490919099364772::1714082601::1714082619::1::::<><>::
-player-shoot3.png::CompressedTexture2D::6615187044150619910::1714082601::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-Slide/::1714082619
-player-slide.png::CompressedTexture2D::371626782276730811::1714082601::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-spin/::1714082619
-player-spin1.png::CompressedTexture2D::4785590145989424882::1714082602::1714082619::1::::<><>::
-player-spin2.png::CompressedTexture2D::4417212498734614169::1714082602::1714082619::1::::<><>::
-player-spin3.png::CompressedTexture2D::787398219313389432::1714082602::1714082619::1::::<><>::
-player-spin4.png::CompressedTexture2D::1987598734555037623::1714082601::1714082619::1::::<><>::
-player-spin5.png::CompressedTexture2D::5617373606399383494::1714082601::1714082619::1::::<><>::
-player-spin6.png::CompressedTexture2D::3680670160988598209::1714082601::1714082619::1::::<><>::
-player-spin7.png::CompressedTexture2D::7330843119032064557::1714082601::1714082619::1::::<><>::
-player-spin8.png::CompressedTexture2D::1090928087872269231::1714082601::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Characters/Player/spritesheets/::1714082619
-player-duck.png::CompressedTexture2D::7291219281666027156::1714082601::1714082619::1::::<><>::
-player-hurt.png::CompressedTexture2D::8416854518197179024::1714082601::1714082619::1::::<><>::
-player-idle.png::CompressedTexture2D::3286822679176316586::1714082601::1714082619::1::::<><>::
-player-jump.png::CompressedTexture2D::1059127434803340293::1714082601::1714082619::1::::<><>::
-player-ladder.png::CompressedTexture2D::2035414115278452957::1714082601::1714082619::1::::<><>::
-player-run-shoot.png::CompressedTexture2D::7285926584247329508::1714082601::1714082619::1::::<><>::
-player-run.png::CompressedTexture2D::934225851284171990::1714082601::1714082619::1::::<><>::
-player-shoot.png::CompressedTexture2D::3679554029350357212::1714082601::1714082619::1::::<><>::
-player-slide.png::CompressedTexture2D::8725654238533131532::1714082601::1714082619::1::::<><>::
-player-spin.png::CompressedTexture2D::3101967642173320566::1714082601::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Environment/::1714082599
-::res://assets/Super Grotto Escape Files/Environment/Force-Field/::1714082619
-force-field1.png::CompressedTexture2D::6424313117464743787::1714082599::1714082619::1::::<><>::
-force-field2.png::CompressedTexture2D::2768446465159926346::1714082599::1714082619::1::::<><>::
-force-field3.png::CompressedTexture2D::1814526875015047970::1714082599::1714082619::1::::<><>::
-force-field4.png::CompressedTexture2D::4590470437003226777::1714082599::1714082619::1::::<><>::
-force-field5.png::CompressedTexture2D::4775551505936319319::1714082599::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Environment/Layers/::1714082619
-back.png::CompressedTexture2D::3932558737001575488::1714082599::1714082619::1::::<><>::
-far.png::CompressedTexture2D::6575036509703796948::1714082599::1714082619::1::::<><>::
-middle.png::CompressedTexture2D::3376590195817249227::1714082599::1714082619::1::::<><>::
-tiledemo.png::CompressedTexture2D::891782633132609734::1714082599::1714082619::1::::<><>::
-tileset-2.png::CompressedTexture2D::877856497241932708::1714082599::1714082619::1::::<><>::
-tileset.png::CompressedTexture2D::6466239036226129848::1714082599::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Environment/Layers/props/::1714082619
-palm.png::CompressedTexture2D::1929069116402843097::1714082599::1714082619::1::::<><>::
-plant-big.png::CompressedTexture2D::8821399209419214873::1714082599::1714082619::1::::<><>::
-plant.png::CompressedTexture2D::8868931046580706486::1714082599::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Fx/::1714082598
-::res://assets/Super Grotto Escape Files/Fx/fx/::1714082598
-::res://assets/Super Grotto Escape Files/Fx/Sprites/::1714082598
-::res://assets/Super Grotto Escape Files/Fx/Sprites/Big-Explosion/::1714082619
-big-explosion1.png::CompressedTexture2D::1066827195599295107::1714082598::1714082619::1::::<><>::
-big-explosion2.png::CompressedTexture2D::6591041341049114372::1714082598::1714082619::1::::<><>::
-big-explosion3.png::CompressedTexture2D::8231101177936132025::1714082598::1714082619::1::::<><>::
-big-explosion4.png::CompressedTexture2D::3018258468541967957::1714082598::1714082619::1::::<><>::
-big-explosion5.png::CompressedTexture2D::4181681667068351370::1714082598::1714082619::1::::<><>::
-big-explosion6.png::CompressedTexture2D::7122756764373856342::1714082598::1714082619::1::::<><>::
-big-explosion7.png::CompressedTexture2D::8194564521704374307::1714082598::1714082619::1::::<><>::
-big-explosion8.png::CompressedTexture2D::2492290258533292593::1714082598::1714082619::1::::<><>::
-big-explosion9.png::CompressedTexture2D::6217185756476546339::1714082599::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Fx/Sprites/Explosion/::1714082619
-explosion1.png::CompressedTexture2D::217872246619415534::1714082598::1714082619::1::::<><>::
-explosion2.png::CompressedTexture2D::8005183149780097714::1714082598::1714082619::1::::<><>::
-explosion3.png::CompressedTexture2D::8608206070513376978::1714082598::1714082619::1::::<><>::
-explosion4.png::CompressedTexture2D::5614058539605282160::1714082598::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback/::1714082619
-pick-feedback1.png::CompressedTexture2D::8164141579070857178::1714082598::1714082619::1::::<><>::
-pick-feedback2.png::CompressedTexture2D::5656852815606367563::1714082598::1714082619::1::::<><>::
-pick-feedback3.png::CompressedTexture2D::3901751424487179493::1714082598::1714082619::1::::<><>::
-pick-feedback4.png::CompressedTexture2D::3908784540358448741::1714082598::1714082619::1::::<><>::
-pick-feedback5.png::CompressedTexture2D::4373161010123131995::1714082598::1714082619::1::::<><>::
-pick-feedback6.png::CompressedTexture2D::7481610873053415913::1714082598::1714082619::1::::<><>::
-pick-feedback7.png::CompressedTexture2D::6081961267485778646::1714082598::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/::1714082619
-pick-feedback-2.png::CompressedTexture2D::6697721111280895532::1714082598::1714082619::1::::<><>::
-pick-feedback-3.png::CompressedTexture2D::8383464380755345188::1714082598::1714082619::1::::<><>::
-pick-feedback-4.png::CompressedTexture2D::699874630074280103::1714082598::1714082619::1::::<><>::
-pick-feedback-5.png::CompressedTexture2D::4904791850075024642::1714082598::1714082619::1::::<><>::
-pick-feedback-6.png::CompressedTexture2D::4938718819199987138::1714082598::1714082619::1::::<><>::
-pick-feedback-7.png::CompressedTexture2D::8207916126337149190::1714082598::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Fx/Sprites/Player-Shoot/::1714082619
-player-shoot1.png::CompressedTexture2D::6542486484194599451::1714082598::1714082619::1::::<><>::
-player-shoot2.png::CompressedTexture2D::3156085310797360924::1714082598::1714082619::1::::<><>::
-player-shoot3.png::CompressedTexture2D::5641455568022984310::1714082598::1714082619::1::::<><>::
-player-shoot4.png::CompressedTexture2D::7564219392065775951::1714082598::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Fx/Sprites/Player-shoot-hit/::1714082619
-player-shoot-hit1.png::CompressedTexture2D::8027810224918207358::1714082598::1714082619::1::::<><>::
-player-shoot-hit2.png::CompressedTexture2D::3551656443636892246::1714082598::1714082619::1::::<><>::
-player-shoot-hit3.png::CompressedTexture2D::371606182318266065::1714082598::1714082619::1::::<><>::
-player-shoot-hit4.png::CompressedTexture2D::3331433734870855945::1714082598::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Fx/Spritesheets/::1714082619
-big-explosion.png::CompressedTexture2D::56461204161183488::1714082598::1714082619::1::::<><>::
-explosion.png::CompressedTexture2D::319440569560295110::1714082598::1714082619::1::::<><>::
-pick-feedback-2.png::CompressedTexture2D::7686346852956276570::1714082598::1714082619::1::::<><>::
-pick-feedback.png::CompressedTexture2D::550766306005706960::1714082598::1714082619::1::::<><>::
-player-shoot-hit.png::CompressedTexture2D::7371538595431041540::1714082598::1714082619::1::::<><>::
-player-shoot.png::CompressedTexture2D::3801995536664575780::1714082598::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Previews/::1714082619
-super-grotto.png::CompressedTexture2D::565277372439672130::1714082599::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Props/::1714082599
-::res://assets/Super Grotto Escape Files/Props/Previews/::1714082619
-all-sprites.png::CompressedTexture2D::1432261957571144842::1714082599::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Props/Sprites/::1714082619
-back-panels.png::CompressedTexture2D::5553189997027884235::1714082599::1714082619::1::::<><>::
-big-crate.png::CompressedTexture2D::6105056876946962472::1714082599::1714082619::1::::<><>::
-console.png::CompressedTexture2D::8388328769398564715::1714082599::1714082619::1::::<><>::
-crate.png::CompressedTexture2D::4305126739566756217::1714082599::1714082619::1::::<><>::
-floating-platform.png::CompressedTexture2D::5708145943699062081::1714082599::1714082619::1::::<><>::
-gate.png::CompressedTexture2D::4825323670356058993::1714082599::1714082619::1::::<><>::
-ladder-metal.png::CompressedTexture2D::3167339605439024655::1714082599::1714082619::1::::<><>::
-metal-column.png::CompressedTexture2D::8882298981064360423::1714082599::1714082619::1::::<><>::
-pipes.png::CompressedTexture2D::2470205956592487273::1714082599::1714082619::1::::<><>::
-support.png::CompressedTexture2D::1753795444786126610::1714082599::1714082619::1::::<><>::
-terminal.png::CompressedTexture2D::2168015909537593673::1714082599::1714082619::1::::<><>::
-vent-pipes.png::CompressedTexture2D::4572768211777269413::1714082599::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/::1714082619
-battery1.png::CompressedTexture2D::7609146126612036409::1714082599::1714082619::1::::<><>::
-battery2.png::CompressedTexture2D::1054325414266489364::1714082599::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Props/Sprites/Fan/::1714082619
-fan1.png::CompressedTexture2D::6985879278589732793::1714082599::1714082619::1::::<><>::
-fan2.png::CompressedTexture2D::8015989214359884290::1714082599::1714082619::1::::<><>::
-::res://assets/Super Grotto Escape Files/Props/Spritesheets/::1714082619
-fan.png::CompressedTexture2D::6215583720146627049::1714082599::1714082619::1::::<><>::
-::res://assets/__MACOSX/::1714082602
-::res://assets/__MACOSX/Super Grotto Escape Files/::1714082604
-._public-license.txt::TextFile::-1::1714082602::0::1::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/::1714082606
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/::1714082606
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/Aseprite/::1714082604
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/Previews/::1714082605
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/::1714082605
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/Bat/::1714082605
-._bat1.png::::-1::0::0::0::::<><>::
-._bat2.png::::-1::0::0::0::::<><>::
-._bat3.png::::-1::0::0::0::::<><>::
-._bat4.png::::-1::0::0::0::::<><>::
-._bat5.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/Fireball/::1714082605
-._fireball1.png::::-1::0::0::0::::<><>::
-._fireball2.png::::-1::0::0::0::::<><>::
-._fireball3.png::::-1::0::0::0::::<><>::
-._fireball4.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/fly-eye/::1714082605
-._fly-eye1.png::::-1::0::0::0::::<><>::
-._fly-eye2.png::::-1::0::0::0::::<><>::
-._fly-eye3.png::::-1::0::0::0::::<><>::
-._fly-eye4.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/Ghost/::1714082605
-._ghost1.png::::-1::0::0::0::::<><>::
-._ghost2.png::::-1::0::0::0::::<><>::
-._ghost3.png::::-1::0::0::0::::<><>::
-._ghost4.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/Ghost-fury/::1714082605
-._ghost-fury-1.png::::-1::0::0::0::::<><>::
-._ghost-fury-2.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/Ghost-shocked/::1714082605
-._ghost-shocked.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/Idle/::1714082604
-._crab-idle1.png::::-1::0::0::0::::<><>::
-._crab-idle2.png::::-1::0::0::0::::<><>::
-._crab-idle3.png::::-1::0::0::0::::<><>::
-._crab-idle4.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/lizard moves/::1714082605
-._lizard-move1.png::::-1::0::0::0::::<><>::
-._lizard-move2.png::::-1::0::0::0::::<><>::
-._lizard-move3.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/lizard shoots/::1714082605
-._lizard-shoot1.png::::-1::0::0::0::::<><>::
-._lizard-shoot2.png::::-1::0::0::0::::<><>::
-._lizard-shoot3.png::::-1::0::0::0::::<><>::
-._lizard-shoot4.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-IDle/::1714082605
-._skeleton-idle1.png::::-1::0::0::0::::<><>::
-._skeleton-idle2.png::::-1::0::0::0::::<><>::
-._skeleton-idle3.png::::-1::0::0::0::::<><>::
-._skeleton-idle4.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/::1714082605
-._skeleton-walk1.png::::-1::0::0::0::::<><>::
-._skeleton-walk2.png::::-1::0::0::0::::<><>::
-._skeleton-walk3.png::::-1::0::0::0::::<><>::
-._skeleton-walk4.png::::-1::0::0::0::::<><>::
-._skeleton-walk5.png::::-1::0::0::0::::<><>::
-._skeleton-walk6.png::::-1::0::0::0::::<><>::
-._skeleton-walk7.png::::-1::0::0::0::::<><>::
-._skeleton-walk8.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/Slime/::1714082605
-._slime1.png::::-1::0::0::0::::<><>::
-._slime2.png::::-1::0::0::0::::<><>::
-._slime3.png::::-1::0::0::0::::<><>::
-._slime4.png::::-1::0::0::0::::<><>::
-._slime5.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/Walk/::1714082605
-._crab-walk1.png::::-1::0::0::0::::<><>::
-._crab-walk2.png::::-1::0::0::0::::<><>::
-._crab-walk3.png::::-1::0::0::0::::<><>::
-._crab-walk4.png::::-1::0::0::0::::<><>::
-._crab-walk5.png::::-1::0::0::0::::<><>::
-._crab-walk6.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/spritesheet/::1714082606
-._bat.png::::-1::0::0::0::::<><>::
-._crab-idle.png::::-1::0::0::0::::<><>::
-._crab-walk.png::::-1::0::0::0::::<><>::
-._fireball.png::::-1::0::0::0::::<><>::
-._fly-eye.png::::-1::0::0::0::::<><>::
-._ghost-fury.png::::-1::0::0::0::::<><>::
-._ghost.png::::-1::0::0::0::::<><>::
-._lizard-move.png::::-1::0::0::0::::<><>::
-._lizard-shoot.png::::-1::0::0::0::::<><>::
-._skeleton-idle.png::::-1::0::0::0::::<><>::
-._skeleton-walk.png::::-1::0::0::0::::<><>::
-._slime.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/::1714082607
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/aseprite/::1714082606
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/Previews/::1714082607
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/sprites/::1714082607
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/sprites/Player-duck/::1714082606
-._player-duck1.png::::-1::0::0::0::::<><>::
-._player-duck2.png::::-1::0::0::0::::<><>::
-._player-duck3.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/sprites/Player-Hurt/::1714082606
-._player-hurt1.png::::-1::0::0::0::::<><>::
-._player-hurt2.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/::1714082607
-._player-idle1.png::::-1::0::0::0::::<><>::
-._player-idle2.png::::-1::0::0::0::::<><>::
-._player-idle3.png::::-1::0::0::0::::<><>::
-._player-idle4.png::::-1::0::0::0::::<><>::
-._player-idle5.png::::-1::0::0::0::::<><>::
-._player-idle6.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/::1714082606
-._player-jump1.png::::-1::0::0::0::::<><>::
-._player-jump2.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/sprites/Player-Ladder/::1714082607
-._player-ladder1.png::::-1::0::0::0::::<><>::
-._player-ladder2.png::::-1::0::0::0::::<><>::
-._player-ladder3.png::::-1::0::0::0::::<><>::
-._player-ladder4.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/sprites/player-run/::1714082607
-._player-run1.png::::-1::0::0::0::::<><>::
-._player-run2.png::::-1::0::0::0::::<><>::
-._player-run3.png::::-1::0::0::0::::<><>::
-._player-run4.png::::-1::0::0::0::::<><>::
-._player-run5.png::::-1::0::0::0::::<><>::
-._player-run6.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/sprites/Player-run-shoot/::1714082606
-._player-run-shoott1.png::::-1::0::0::0::::<><>::
-._player-run-shoott2.png::::-1::0::0::0::::<><>::
-._player-run-shoott3.png::::-1::0::0::0::::<><>::
-._player-run-shoott4.png::::-1::0::0::0::::<><>::
-._player-run-shoott5.png::::-1::0::0::0::::<><>::
-._player-run-shoott6.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/sprites/Player-shoot/::1714082606
-._player-shoot1.png::::-1::0::0::0::::<><>::
-._player-shoot2.png::::-1::0::0::0::::<><>::
-._player-shoot3.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/sprites/Player-Slide/::1714082606
-._player-slide.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/sprites/Player-spin/::1714082607
-._player-spin1.png::::-1::0::0::0::::<><>::
-._player-spin2.png::::-1::0::0::0::::<><>::
-._player-spin3.png::::-1::0::0::0::::<><>::
-._player-spin4.png::::-1::0::0::0::::<><>::
-._player-spin5.png::::-1::0::0::0::::<><>::
-._player-spin6.png::::-1::0::0::0::::<><>::
-._player-spin7.png::::-1::0::0::0::::<><>::
-._player-spin8.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/spritesheets/::1714082606
-._player-duck.png::::-1::0::0::0::::<><>::
-._player-hurt.png::::-1::0::0::0::::<><>::
-._player-idle.png::::-1::0::0::0::::<><>::
-._player-jump.png::::-1::0::0::0::::<><>::
-._player-ladder.png::::-1::0::0::0::::<><>::
-._player-run-shoot.png::::-1::0::0::0::::<><>::
-._player-run.png::::-1::0::0::0::::<><>::
-._player-shoot.png::::-1::0::0::0::::<><>::
-._player-slide.png::::-1::0::0::0::::<><>::
-._player-spin.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Environment/::1714082604
-::res://assets/__MACOSX/Super Grotto Escape Files/Environment/Force-Field/::1714082604
-._force-field1.png::::-1::0::0::0::::<><>::
-._force-field2.png::::-1::0::0::0::::<><>::
-._force-field3.png::::-1::0::0::0::::<><>::
-._force-field4.png::::-1::0::0::0::::<><>::
-._force-field5.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Environment/Layers/::1714082604
-._back.png::::-1::0::0::0::::<><>::
-._far.png::::-1::0::0::0::::<><>::
-._middle.png::::-1::0::0::0::::<><>::
-._tiledemo.png::::-1::0::0::0::::<><>::
-._tileset-2.png::::-1::0::0::0::::<><>::
-._tileset.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Environment/Layers/props/::1714082604
-._palm.png::::-1::0::0::0::::<><>::
-._plant-big.png::::-1::0::0::0::::<><>::
-._plant.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Fx/::1714082602
-::res://assets/__MACOSX/Super Grotto Escape Files/Fx/fx/::1714082602
-::res://assets/__MACOSX/Super Grotto Escape Files/Fx/Sprites/::1714082603
-::res://assets/__MACOSX/Super Grotto Escape Files/Fx/Sprites/Big-Explosion/::1714082603
-._big-explosion1.png::::-1::0::0::0::::<><>::
-._big-explosion2.png::::-1::0::0::0::::<><>::
-._big-explosion3.png::::-1::0::0::0::::<><>::
-._big-explosion4.png::::-1::0::0::0::::<><>::
-._big-explosion5.png::::-1::0::0::0::::<><>::
-._big-explosion6.png::::-1::0::0::0::::<><>::
-._big-explosion7.png::::-1::0::0::0::::<><>::
-._big-explosion8.png::::-1::0::0::0::::<><>::
-._big-explosion9.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Fx/Sprites/Explosion/::1714082603
-._explosion1.png::::-1::0::0::0::::<><>::
-._explosion2.png::::-1::0::0::0::::<><>::
-._explosion3.png::::-1::0::0::0::::<><>::
-._explosion4.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Fx/Sprites/Pick Feedback/::1714082603
-._pick-feedback1.png::::-1::0::0::0::::<><>::
-._pick-feedback2.png::::-1::0::0::0::::<><>::
-._pick-feedback3.png::::-1::0::0::0::::<><>::
-._pick-feedback4.png::::-1::0::0::0::::<><>::
-._pick-feedback5.png::::-1::0::0::0::::<><>::
-._pick-feedback6.png::::-1::0::0::0::::<><>::
-._pick-feedback7.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/::1714082603
-._pick-feedback-2.png::::-1::0::0::0::::<><>::
-._pick-feedback-3.png::::-1::0::0::0::::<><>::
-._pick-feedback-4.png::::-1::0::0::0::::<><>::
-._pick-feedback-5.png::::-1::0::0::0::::<><>::
-._pick-feedback-6.png::::-1::0::0::0::::<><>::
-._pick-feedback-7.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Fx/Sprites/Player-Shoot/::1714082603
-._player-shoot1.png::::-1::0::0::0::::<><>::
-._player-shoot2.png::::-1::0::0::0::::<><>::
-._player-shoot3.png::::-1::0::0::0::::<><>::
-._player-shoot4.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Fx/Sprites/Player-shoot-hit/::1714082603
-._player-shoot-hit1.png::::-1::0::0::0::::<><>::
-._player-shoot-hit2.png::::-1::0::0::0::::<><>::
-._player-shoot-hit3.png::::-1::0::0::0::::<><>::
-._player-shoot-hit4.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Fx/Spritesheets/::1714082602
-._big-explosion.png::::-1::0::0::0::::<><>::
-._explosion.png::::-1::0::0::0::::<><>::
-._pick-feedback-2.png::::-1::0::0::0::::<><>::
-._pick-feedback.png::::-1::0::0::0::::<><>::
-._player-shoot-hit.png::::-1::0::0::0::::<><>::
-._player-shoot.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Previews/::1714082604
-._super-grotto.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Props/::1714082603
-::res://assets/__MACOSX/Super Grotto Escape Files/Props/Previews/::1714082603
-._all-sprites.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Props/Sprites/::1714082603
-._back-panels.png::::-1::0::0::0::::<><>::
-._big-crate.png::::-1::0::0::0::::<><>::
-._console.png::::-1::0::0::0::::<><>::
-._crate.png::::-1::0::0::0::::<><>::
-._floating-platform.png::::-1::0::0::0::::<><>::
-._gate.png::::-1::0::0::0::::<><>::
-._ladder-metal.png::::-1::0::0::0::::<><>::
-._metal-column.png::::-1::0::0::0::::<><>::
-._pipes.png::::-1::0::0::0::::<><>::
-._support.png::::-1::0::0::0::::<><>::
-._terminal.png::::-1::0::0::0::::<><>::
-._vent-pipes.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Props/Sprites/Battery/::1714082603
-._battery1.png::::-1::0::0::0::::<><>::
-._battery2.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Props/Sprites/Fan/::1714082603
-._fan1.png::::-1::0::0::0::::<><>::
-._fan2.png::::-1::0::0::0::::<><>::
-::res://assets/__MACOSX/Super Grotto Escape Files/Props/Spritesheets/::1714082603
-._fan.png::::-1::0::0::0::::<><>::
-::res://Audio/::1714082522
-::res://Code/::1714082522
-::res://Levels/::1715378867
-virticalSlice.tscn::PackedScene::6410842580335381771::1715378867::0::1::::<><>::uid://bwa7wya7rg65i::::res://assets/Super Grotto Escape Files/Environment/Layers/back.png<>uid://c0w85jvxchuh5::::res://assets/Super Grotto Escape Files/Environment/Layers/far.png<>uid://bodv7g7yjdwj0::::res://assets/Super Grotto Escape Files/Environment/Layers/middle.png<>uid://mrifyraysl2s::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset-2.png<>uid://cyekaodnxnvbk::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset.png<>uid://dxxffkrtwo6fd::::res://assets/Super Grotto Escape Files/Environment/Layers/props/plant-big.png<>uid://dymf87l2h10dm::::res://assets/Super Grotto Escape Files/Environment/Layers/props/plant.png<>uid://2qpqsnwk87i8::::res://assets/Super Grotto Escape Files/Environment/Layers/props/palm.png<>uid://un2e63mc30t7::::res://assets/Super Grotto Escape Files/Props/Previews/all-sprites.png<>uid://dgn6r35n5xxqf::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png<>uid://payt543kaycq::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery2.png<>uid://jjweuxw1uuqy::::res://health_item_pickup.tscn<>uid://ctqnvj8hrk3yi::::res://damage_zone.tscn<>uid://b6atsdvt0yrew::::res://Player.tscn<>uid://dix0kwtfpx6hg::::res://powerup.tscn
-::res://Levels/Scenes/::1714082535
-::res://Player/::1714089318
-::res://Player/Scripts/::1715378619
-Player.gd::GDScript::-1::1715378619::0::1::::Player<>CharacterBody2D<>::
+::res://::1715806036
+CollisionShape2D.gd::GDScript::-1::1715806009::0::1::::<>CollisionShape2D<>::
+DamagePlayerState.gd::GDScript::-1::1715806009::0::1::::DamagePlayerState<>State<>::
+damage_zone.tscn::PackedScene::6140286787181629608::1715806009::0::1::::<><>::res://CollisionShape2D.gd
+FallPlayerState.gd::GDScript::-1::1715806009::0::1::::FallPlayerState<>State<>::
+global.gd::GDScript::-1::1715806009::0::1::::<>Node<>::
+health.tscn::PackedScene::8256290193014872600::1715806009::0::1::::<><>::uid://dgn6r35n5xxqf::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png
+health_container.gd::GDScript::-1::1715806009::0::1::::<>HBoxContainer<>::
+health_container.tscn::PackedScene::2020819118639835476::1715806009::0::1::::<><>::res://health_container.gd
+health_item.gd::GDScript::-1::1715806009::0::1::::<>Panel<>::
+health_item.tscn::PackedScene::5767503342606908303::1715806009::0::1::::<><>::res://health_item.gd<>uid://dgn6r35n5xxqf::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png
+health_item_pickup.gd::GDScript::-1::1715806009::0::1::::<>Area2D<>::
+health_item_pickup.tscn::PackedScene::651622996577949512::1715806009::0::1::::<><>::res://health_item_pickup.gd<>uid://dgn6r35n5xxqf::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png<>uid://payt543kaycq::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery2.png
+icon.svg::CompressedTexture2D::3921026682255503151::1714164359::1714164359::1::::<><>::
+IdlePlayerState.gd::GDScript::-1::1715806009::0::1::::IdlePlayerState<>State<>::
+JumpPlayerState.gd::GDScript::-1::1715806009::0::1::::JumpPlayerState<>State<>::
+Player.tscn::PackedScene::4563460794533543634::1715806009::0::1::::<><>::uid://buyr5y65a2mbn::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/player-jump2.png<>res://Player/Scripts/Player.gd<>uid://cgwc1h3ofpoc7::::res://user_interface.tscn<>uid://bomssfev1l5it::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle1.png<>uid://b7cooiiw8lcjg::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle2.png<>uid://cx5rf514mj8dc::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-Hurt/player-hurt1.png<>uid://b1ypkcms1iobb::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-Hurt/player-hurt2.png<>uid://07qba7d4aff2::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle3.png<>uid://dyvsj6q2fl8my::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle4.png<>uid://dq7e70fniev3s::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle5.png<>uid://d4ghyyhq6uwd2::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle6.png<>uid://2lmj4hgonkyh::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/player-jump1.png<>uid://b6cr7gpe6uhgy::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run1.png<>uid://pvsrriiesqno::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run2.png<>uid://6d4tg418yrb0::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run3.png<>uid://pafb7yxvd6bw::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run4.png<>uid://bsu5odcn3acmm::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run5.png<>uid://cxdlowpxyed3u::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run6.png<>res://StateMachine.gd<>res://IdlePlayerState.gd<>res://RunningPlayerState.gd<>res://JumpPlayerState.gd<>res://FallPlayerState.gd<>res://DamagePlayerState.gd
+powerup.gd::GDScript::-1::1715806009::0::1::::<>Area2D<>::
+powerup.tscn::PackedScene::7769790456398296952::1715806009::0::1::::<><>::uid://drpao0e0d18lk::::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-3.png<>res://powerup.gd<>uid://c2ooqukndbpeq::::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-2.png<>uid://cb46g8gckgnq5::::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-5.png<>uid://j8a3k3qc02rr::::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-4.png
+README.md::TextFile::-1::1714164359::0::1::::<><>::
+RunningPlayerState.gd::GDScript::-1::1715806009::0::1::::RunningPlayerState<>State<>::
+State.gd::GDScript::-1::1715806009::0::1::::State<>Node<>::
+StateMachine.gd::GDScript::-1::1715806009::0::1::::StateMachine<>Node<>::
+TestLevel.tscn::PackedScene::8473366366831979977::1715806009::0::1::::<><>::uid://b6atsdvt0yrew::::res://Player.tscn<>uid://cyekaodnxnvbk::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset.png<>uid://cdm5ok10llfrb::::res://Art/Textures/Tilesets/new_tile_set.tres
+ui.tscn::PackedScene::8027886798417141507::1715806009::0::1::::<><>::
+user_interface.gd::GDScript::-1::1715806009::0::1::::UserInterface<>CanvasLayer<>::
+user_interface.tscn::PackedScene::5239559015992129828::1715806009::0::1::::<><>::res://user_interface.gd<>uid://315uis8lx0om::::res://health_container.tscn
+::res://Art/::1715806009
+::res://Art/Textures/::1715806009
+::res://Art/Textures/Tilesets/::1715806009
+new_tile_set.tres::TileSet::5010027508796119295::1715806009::0::1::::<><>::uid://mrifyraysl2s::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset-2.png<>uid://cyekaodnxnvbk::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset.png
+::res://assets/::1714164359
+::res://assets/Super Grotto Escape Files/::1714164359
+public-license.txt::TextFile::-1::1714164359::0::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/::1714164359
+::res://assets/Super Grotto Escape Files/Characters/Enemies/::1714164359
+::res://assets/Super Grotto Escape Files/Characters/Enemies/Aseprite/::1714164359
+::res://assets/Super Grotto Escape Files/Characters/Enemies/Previews/::1714164359
+::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/::1714164359
+::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Bat/::1714164359
+bat1.png::CompressedTexture2D::2906916740932329434::1714164359::1714164359::1::::<><>::
+bat2.png::CompressedTexture2D::7025220310287453852::1714164359::1714164359::1::::<><>::
+bat3.png::CompressedTexture2D::148600924636166474::1714164359::1714164359::1::::<><>::
+bat4.png::CompressedTexture2D::4861878844516031240::1714164359::1714164359::1::::<><>::
+bat5.png::CompressedTexture2D::5138493775910378456::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Fireball/::1714164359
+fireball1.png::CompressedTexture2D::1969658177609824458::1714164359::1714164359::1::::<><>::
+fireball2.png::CompressedTexture2D::3932379042330781419::1714164359::1714164359::1::::<><>::
+fireball3.png::CompressedTexture2D::7147892250461162305::1714164359::1714164359::1::::<><>::
+fireball4.png::CompressedTexture2D::4188207527837859095::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/fly-eye/::1714164359
+fly-eye1.png::CompressedTexture2D::7089406877787032199::1714164359::1714164359::1::::<><>::
+fly-eye2.png::CompressedTexture2D::6938732632241840888::1714164359::1714164359::1::::<><>::
+fly-eye3.png::CompressedTexture2D::2580315599974385456::1714164359::1714164359::1::::<><>::
+fly-eye4.png::CompressedTexture2D::5123384117944499056::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Ghost/::1714164359
+ghost1.png::CompressedTexture2D::3347766824796329099::1714164359::1714164359::1::::<><>::
+ghost2.png::CompressedTexture2D::4271003930755027506::1714164359::1714164359::1::::<><>::
+ghost3.png::CompressedTexture2D::455924854243109711::1714164359::1714164359::1::::<><>::
+ghost4.png::CompressedTexture2D::5802727809049373243::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Ghost-fury/::1714164359
+ghost-fury-1.png::CompressedTexture2D::5932676858799866315::1714164359::1714164359::1::::<><>::
+ghost-fury-2.png::CompressedTexture2D::5745377179386594235::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Ghost-shocked/::1714164359
+ghost-shocked.png::CompressedTexture2D::5961997134795837072::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Idle/::1714164359
+crab-idle1.png::CompressedTexture2D::6569718489921166881::1714164359::1714164359::1::::<><>::
+crab-idle2.png::CompressedTexture2D::5506478974836119927::1714164359::1714164359::1::::<><>::
+crab-idle3.png::CompressedTexture2D::9082381500877629197::1714164359::1714164359::1::::<><>::
+crab-idle4.png::CompressedTexture2D::7740299568647957230::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/lizard moves/::1714164359
+lizard-move1.png::CompressedTexture2D::9156429923820228931::1714164359::1714164359::1::::<><>::
+lizard-move2.png::CompressedTexture2D::8957398984521050173::1714164359::1714164359::1::::<><>::
+lizard-move3.png::CompressedTexture2D::4399105651932109666::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/lizard shoots/::1714164359
+lizard-shoot1.png::CompressedTexture2D::3422618248079435306::1714164359::1714164359::1::::<><>::
+lizard-shoot2.png::CompressedTexture2D::4297794320821172451::1714164359::1714164359::1::::<><>::
+lizard-shoot3.png::CompressedTexture2D::8866008796069263448::1714164359::1714164359::1::::<><>::
+lizard-shoot4.png::CompressedTexture2D::7845616415528719364::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-IDle/::1714164359
+skeleton-idle1.png::CompressedTexture2D::6857511731735702740::1714164359::1714164359::1::::<><>::
+skeleton-idle2.png::CompressedTexture2D::8560042736396288087::1714164359::1714164359::1::::<><>::
+skeleton-idle3.png::CompressedTexture2D::8919772223272621258::1714164359::1714164359::1::::<><>::
+skeleton-idle4.png::CompressedTexture2D::2893378961254573822::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/::1714164359
+skeleton-walk1.png::CompressedTexture2D::3219138264662282466::1714164359::1714164359::1::::<><>::
+skeleton-walk2.png::CompressedTexture2D::6928527484791475570::1714164359::1714164359::1::::<><>::
+skeleton-walk3.png::CompressedTexture2D::7205782501424073174::1714164359::1714164359::1::::<><>::
+skeleton-walk4.png::CompressedTexture2D::994613594397258026::1714164359::1714164359::1::::<><>::
+skeleton-walk5.png::CompressedTexture2D::5557160202032018072::1714164359::1714164359::1::::<><>::
+skeleton-walk6.png::CompressedTexture2D::5210063954144110382::1714164359::1714164359::1::::<><>::
+skeleton-walk7.png::CompressedTexture2D::3337527956202001292::1714164359::1714164359::1::::<><>::
+skeleton-walk8.png::CompressedTexture2D::6241002102177199410::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Slime/::1714164359
+slime1.png::CompressedTexture2D::2805331093945413016::1714164359::1714164359::1::::<><>::
+slime2.png::CompressedTexture2D::274322263245281627::1714164359::1714164359::1::::<><>::
+slime3.png::CompressedTexture2D::6791192236779681350::1714164359::1714164359::1::::<><>::
+slime4.png::CompressedTexture2D::7761861092138973546::1714164359::1714164359::1::::<><>::
+slime5.png::CompressedTexture2D::449407825457194316::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Walk/::1714164359
+crab-walk1.png::CompressedTexture2D::6939246814325864035::1714164359::1714164359::1::::<><>::
+crab-walk2.png::CompressedTexture2D::800935360751951717::1714164359::1714164359::1::::<><>::
+crab-walk3.png::CompressedTexture2D::2074701992131210637::1714164359::1714164359::1::::<><>::
+crab-walk4.png::CompressedTexture2D::760973144866911110::1714164359::1714164359::1::::<><>::
+crab-walk5.png::CompressedTexture2D::5987967764980364839::1714164359::1714164359::1::::<><>::
+crab-walk6.png::CompressedTexture2D::3944408957625848512::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/Enemies/spritesheet/::1714164359
+bat.png::CompressedTexture2D::9055387055074803196::1714164359::1714164359::1::::<><>::
+crab-idle.png::CompressedTexture2D::2729928771344105836::1714164359::1714164359::1::::<><>::
+crab-walk.png::CompressedTexture2D::1689813673225560115::1714164359::1714164359::1::::<><>::
+fireball.png::CompressedTexture2D::350165757470545479::1714164359::1714164359::1::::<><>::
+fly-eye.png::CompressedTexture2D::2175946949928134722::1714164359::1714164359::1::::<><>::
+ghost-fury.png::CompressedTexture2D::5326464143776064119::1714164359::1714164359::1::::<><>::
+ghost.png::CompressedTexture2D::3086962699963964141::1714164359::1714164359::1::::<><>::
+lizard-move.png::CompressedTexture2D::1856015217339573637::1714164359::1714164359::1::::<><>::
+lizard-shoot.png::CompressedTexture2D::5234121815940368246::1714164359::1714164359::1::::<><>::
+skeleton-idle.png::CompressedTexture2D::1042716697675816581::1714164359::1714164359::1::::<><>::
+skeleton-walk.png::CompressedTexture2D::5503787421511157711::1714164359::1714164359::1::::<><>::
+slime.png::CompressedTexture2D::2432649256384735645::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/Player/::1714164359
+::res://assets/Super Grotto Escape Files/Characters/Player/aseprite/::1714164359
+::res://assets/Super Grotto Escape Files/Characters/Player/Previews/::1714164359
+::res://assets/Super Grotto Escape Files/Characters/Player/sprites/::1714164359
+::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-duck/::1714164359
+player-duck1.png::CompressedTexture2D::4249795473923101627::1714164359::1714164359::1::::<><>::
+player-duck2.png::CompressedTexture2D::8039006993103950077::1714164359::1714164359::1::::<><>::
+player-duck3.png::CompressedTexture2D::3663160576819033831::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-Hurt/::1714164359
+player-hurt1.png::CompressedTexture2D::6450158838728769044::1714164359::1714164359::1::::<><>::
+player-hurt2.png::CompressedTexture2D::4261804421647189883::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/::1714164359
+player-idle1.png::CompressedTexture2D::3394962347619680563::1714164359::1714164359::1::::<><>::
+player-idle2.png::CompressedTexture2D::4637467908221005800::1714164359::1714164359::1::::<><>::
+player-idle3.png::CompressedTexture2D::1821754486367698057::1714164359::1714164359::1::::<><>::
+player-idle4.png::CompressedTexture2D::8888256863416910268::1714164359::1714164359::1::::<><>::
+player-idle5.png::CompressedTexture2D::8348644972203066014::1714164359::1714164359::1::::<><>::
+player-idle6.png::CompressedTexture2D::9207593933252922921::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/::1714164359
+player-jump1.png::CompressedTexture2D::1918553143862503207::1714164359::1714164359::1::::<><>::
+player-jump2.png::CompressedTexture2D::3840829695058838327::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-Ladder/::1714164359
+player-ladder1.png::CompressedTexture2D::5615648009912739440::1714164359::1714164359::1::::<><>::
+player-ladder2.png::CompressedTexture2D::3342896582964114720::1714164359::1714164359::1::::<><>::
+player-ladder3.png::CompressedTexture2D::1383259812014627041::1714164359::1714164359::1::::<><>::
+player-ladder4.png::CompressedTexture2D::5898409998316426374::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/::1714164359
+player-run1.png::CompressedTexture2D::4567493264798340688::1714164359::1714164359::1::::<><>::
+player-run2.png::CompressedTexture2D::1097308757396863576::1714164359::1714164359::1::::<><>::
+player-run3.png::CompressedTexture2D::2183842370081415759::1714164359::1714164359::1::::<><>::
+player-run4.png::CompressedTexture2D::1053139744223965180::1714164359::1714164359::1::::<><>::
+player-run5.png::CompressedTexture2D::3692954096444281868::1714164359::1714164359::1::::<><>::
+player-run6.png::CompressedTexture2D::6394071972121243800::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-run-shoot/::1714164359
+player-run-shoott1.png::CompressedTexture2D::9075199941026475810::1714164359::1714164359::1::::<><>::
+player-run-shoott2.png::CompressedTexture2D::9154964224259479453::1714164359::1714164359::1::::<><>::
+player-run-shoott3.png::CompressedTexture2D::3975100655464625950::1714164359::1714164359::1::::<><>::
+player-run-shoott4.png::CompressedTexture2D::942089273691784845::1714164359::1714164359::1::::<><>::
+player-run-shoott5.png::CompressedTexture2D::8952611090854301200::1714164359::1714164359::1::::<><>::
+player-run-shoott6.png::CompressedTexture2D::254880359069889253::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-shoot/::1714164359
+player-shoot1.png::CompressedTexture2D::5712275819911157098::1714164359::1714164359::1::::<><>::
+player-shoot2.png::CompressedTexture2D::8812490919099364772::1714164359::1714164359::1::::<><>::
+player-shoot3.png::CompressedTexture2D::6615187044150619910::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-Slide/::1714164359
+player-slide.png::CompressedTexture2D::371626782276730811::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-spin/::1714164359
+player-spin1.png::CompressedTexture2D::4785590145989424882::1714164359::1714164359::1::::<><>::
+player-spin2.png::CompressedTexture2D::4417212498734614169::1714164359::1714164359::1::::<><>::
+player-spin3.png::CompressedTexture2D::787398219313389432::1714164359::1714164359::1::::<><>::
+player-spin4.png::CompressedTexture2D::1987598734555037623::1714164359::1714164359::1::::<><>::
+player-spin5.png::CompressedTexture2D::5617373606399383494::1714164359::1714164359::1::::<><>::
+player-spin6.png::CompressedTexture2D::3680670160988598209::1714164359::1714164359::1::::<><>::
+player-spin7.png::CompressedTexture2D::7330843119032064557::1714164359::1714164359::1::::<><>::
+player-spin8.png::CompressedTexture2D::1090928087872269231::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Characters/Player/spritesheets/::1714164359
+player-duck.png::CompressedTexture2D::7291219281666027156::1714164359::1714164359::1::::<><>::
+player-hurt.png::CompressedTexture2D::8416854518197179024::1714164359::1714164359::1::::<><>::
+player-idle.png::CompressedTexture2D::3286822679176316586::1714164359::1714164359::1::::<><>::
+player-jump.png::CompressedTexture2D::1059127434803340293::1714164359::1714164359::1::::<><>::
+player-ladder.png::CompressedTexture2D::2035414115278452957::1714164359::1714164359::1::::<><>::
+player-run-shoot.png::CompressedTexture2D::7285926584247329508::1714164359::1714164359::1::::<><>::
+player-run.png::CompressedTexture2D::934225851284171990::1714164359::1714164359::1::::<><>::
+player-shoot.png::CompressedTexture2D::3679554029350357212::1714164359::1714164359::1::::<><>::
+player-slide.png::CompressedTexture2D::8725654238533131532::1714164359::1714164359::1::::<><>::
+player-spin.png::CompressedTexture2D::3101967642173320566::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Environment/::1714164359
+::res://assets/Super Grotto Escape Files/Environment/Force-Field/::1714164359
+force-field1.png::CompressedTexture2D::6424313117464743787::1714164359::1714164359::1::::<><>::
+force-field2.png::CompressedTexture2D::2768446465159926346::1714164359::1714164359::1::::<><>::
+force-field3.png::CompressedTexture2D::1814526875015047970::1714164359::1714164359::1::::<><>::
+force-field4.png::CompressedTexture2D::4590470437003226777::1714164359::1714164359::1::::<><>::
+force-field5.png::CompressedTexture2D::4775551505936319319::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Environment/Layers/::1714164359
+back.png::CompressedTexture2D::3932558737001575488::1714164359::1714164359::1::::<><>::
+far.png::CompressedTexture2D::6575036509703796948::1714164359::1714164359::1::::<><>::
+middle.png::CompressedTexture2D::3376590195817249227::1714164359::1714164359::1::::<><>::
+tiledemo.png::CompressedTexture2D::891782633132609734::1714164359::1714164359::1::::<><>::
+tileset-2.png::CompressedTexture2D::877856497241932708::1714164359::1714164359::1::::<><>::
+tileset.png::CompressedTexture2D::6466239036226129848::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Environment/Layers/props/::1714164359
+palm.png::CompressedTexture2D::1929069116402843097::1714164359::1714164359::1::::<><>::
+plant-big.png::CompressedTexture2D::8821399209419214873::1714164359::1714164359::1::::<><>::
+plant.png::CompressedTexture2D::8868931046580706486::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Fx/::1714164359
+::res://assets/Super Grotto Escape Files/Fx/fx/::1714164359
+::res://assets/Super Grotto Escape Files/Fx/Sprites/::1714164359
+::res://assets/Super Grotto Escape Files/Fx/Sprites/Big-Explosion/::1714164359
+big-explosion1.png::CompressedTexture2D::1066827195599295107::1714164359::1714164359::1::::<><>::
+big-explosion2.png::CompressedTexture2D::6591041341049114372::1714164359::1714164359::1::::<><>::
+big-explosion3.png::CompressedTexture2D::8231101177936132025::1714164359::1714164359::1::::<><>::
+big-explosion4.png::CompressedTexture2D::3018258468541967957::1714164359::1714164359::1::::<><>::
+big-explosion5.png::CompressedTexture2D::4181681667068351370::1714164359::1714164359::1::::<><>::
+big-explosion6.png::CompressedTexture2D::7122756764373856342::1714164359::1714164359::1::::<><>::
+big-explosion7.png::CompressedTexture2D::8194564521704374307::1714164359::1714164359::1::::<><>::
+big-explosion8.png::CompressedTexture2D::2492290258533292593::1714164359::1714164359::1::::<><>::
+big-explosion9.png::CompressedTexture2D::6217185756476546339::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Fx/Sprites/Explosion/::1714164359
+explosion1.png::CompressedTexture2D::217872246619415534::1714164359::1714164359::1::::<><>::
+explosion2.png::CompressedTexture2D::8005183149780097714::1714164359::1714164359::1::::<><>::
+explosion3.png::CompressedTexture2D::8608206070513376978::1714164359::1714164359::1::::<><>::
+explosion4.png::CompressedTexture2D::5614058539605282160::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback/::1714164359
+pick-feedback1.png::CompressedTexture2D::8164141579070857178::1714164359::1714164359::1::::<><>::
+pick-feedback2.png::CompressedTexture2D::5656852815606367563::1714164359::1714164359::1::::<><>::
+pick-feedback3.png::CompressedTexture2D::3901751424487179493::1714164359::1714164359::1::::<><>::
+pick-feedback4.png::CompressedTexture2D::3908784540358448741::1714164359::1714164359::1::::<><>::
+pick-feedback5.png::CompressedTexture2D::4373161010123131995::1714164359::1714164359::1::::<><>::
+pick-feedback6.png::CompressedTexture2D::7481610873053415913::1714164359::1714164359::1::::<><>::
+pick-feedback7.png::CompressedTexture2D::6081961267485778646::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/::1714164359
+pick-feedback-2.png::CompressedTexture2D::6697721111280895532::1714164359::1714164359::1::::<><>::
+pick-feedback-3.png::CompressedTexture2D::8383464380755345188::1714164359::1714164359::1::::<><>::
+pick-feedback-4.png::CompressedTexture2D::699874630074280103::1714164359::1714164359::1::::<><>::
+pick-feedback-5.png::CompressedTexture2D::4904791850075024642::1714164359::1714164359::1::::<><>::
+pick-feedback-6.png::CompressedTexture2D::4938718819199987138::1714164359::1714164359::1::::<><>::
+pick-feedback-7.png::CompressedTexture2D::8207916126337149190::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Fx/Sprites/Player-Shoot/::1714164359
+player-shoot1.png::CompressedTexture2D::6542486484194599451::1714164359::1714164359::1::::<><>::
+player-shoot2.png::CompressedTexture2D::3156085310797360924::1714164359::1714164359::1::::<><>::
+player-shoot3.png::CompressedTexture2D::5641455568022984310::1714164359::1714164359::1::::<><>::
+player-shoot4.png::CompressedTexture2D::7564219392065775951::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Fx/Sprites/Player-shoot-hit/::1714164359
+player-shoot-hit1.png::CompressedTexture2D::8027810224918207358::1714164359::1714164359::1::::<><>::
+player-shoot-hit2.png::CompressedTexture2D::3551656443636892246::1714164359::1714164359::1::::<><>::
+player-shoot-hit3.png::CompressedTexture2D::371606182318266065::1714164359::1714164359::1::::<><>::
+player-shoot-hit4.png::CompressedTexture2D::3331433734870855945::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Fx/Spritesheets/::1714164359
+big-explosion.png::CompressedTexture2D::56461204161183488::1714164359::1714164359::1::::<><>::
+explosion.png::CompressedTexture2D::319440569560295110::1714164359::1714164359::1::::<><>::
+pick-feedback-2.png::CompressedTexture2D::7686346852956276570::1714164359::1714164359::1::::<><>::
+pick-feedback.png::CompressedTexture2D::550766306005706960::1714164359::1714164359::1::::<><>::
+player-shoot-hit.png::CompressedTexture2D::7371538595431041540::1714164359::1714164359::1::::<><>::
+player-shoot.png::CompressedTexture2D::3801995536664575780::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Previews/::1714164359
+super-grotto.png::CompressedTexture2D::565277372439672130::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Props/::1714164359
+::res://assets/Super Grotto Escape Files/Props/Previews/::1714164359
+all-sprites.png::CompressedTexture2D::1432261957571144842::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Props/Sprites/::1714164359
+back-panels.png::CompressedTexture2D::5553189997027884235::1714164359::1714164359::1::::<><>::
+big-crate.png::CompressedTexture2D::6105056876946962472::1714164359::1714164359::1::::<><>::
+console.png::CompressedTexture2D::8388328769398564715::1714164359::1714164359::1::::<><>::
+crate.png::CompressedTexture2D::4305126739566756217::1714164359::1714164359::1::::<><>::
+floating-platform.png::CompressedTexture2D::5708145943699062081::1714164359::1714164359::1::::<><>::
+gate.png::CompressedTexture2D::4825323670356058993::1714164359::1714164359::1::::<><>::
+ladder-metal.png::CompressedTexture2D::3167339605439024655::1714164359::1714164359::1::::<><>::
+metal-column.png::CompressedTexture2D::8882298981064360423::1714164359::1714164359::1::::<><>::
+pipes.png::CompressedTexture2D::2470205956592487273::1714164359::1714164359::1::::<><>::
+support.png::CompressedTexture2D::1753795444786126610::1714164359::1714164359::1::::<><>::
+terminal.png::CompressedTexture2D::2168015909537593673::1714164359::1714164359::1::::<><>::
+vent-pipes.png::CompressedTexture2D::4572768211777269413::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/::1714164359
+battery1.png::CompressedTexture2D::7609146126612036409::1714164359::1714164359::1::::<><>::
+battery2.png::CompressedTexture2D::1054325414266489364::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Props/Sprites/Fan/::1714164359
+fan1.png::CompressedTexture2D::6985879278589732793::1714164359::1714164359::1::::<><>::
+fan2.png::CompressedTexture2D::8015989214359884290::1714164359::1714164359::1::::<><>::
+::res://assets/Super Grotto Escape Files/Props/Spritesheets/::1714164359
+fan.png::CompressedTexture2D::6215583720146627049::1714164359::1714164359::1::::<><>::
+::res://assets/__MACOSX/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/Aseprite/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/Previews/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/Bat/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/Fireball/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/fly-eye/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/Ghost/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/Ghost-fury/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/Ghost-shocked/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/Idle/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/lizard moves/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/lizard shoots/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-IDle/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/Slime/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/sprites/Walk/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Enemies/spritesheet/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/aseprite/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/Previews/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/sprites/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/sprites/Player-duck/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/sprites/Player-Hurt/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/sprites/Player-Ladder/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/sprites/player-run/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/sprites/Player-run-shoot/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/sprites/Player-shoot/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/sprites/Player-Slide/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/sprites/Player-spin/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Characters/Player/spritesheets/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Environment/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Environment/Force-Field/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Environment/Layers/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Environment/Layers/props/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Fx/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Fx/fx/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Fx/Sprites/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Fx/Sprites/Big-Explosion/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Fx/Sprites/Explosion/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Fx/Sprites/Pick Feedback/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Fx/Sprites/Player-Shoot/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Fx/Sprites/Player-shoot-hit/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Fx/Spritesheets/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Previews/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Props/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Props/Previews/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Props/Sprites/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Props/Sprites/Battery/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Props/Sprites/Fan/::1714164359
+::res://assets/__MACOSX/Super Grotto Escape Files/Props/Spritesheets/::1714164359
+::res://Levels/::1715806009
+virticalSlice.tscn::PackedScene::6410842580335381771::1715806009::0::1::::<><>::uid://bwa7wya7rg65i::::res://assets/Super Grotto Escape Files/Environment/Layers/back.png<>uid://c0w85jvxchuh5::::res://assets/Super Grotto Escape Files/Environment/Layers/far.png<>uid://bodv7g7yjdwj0::::res://assets/Super Grotto Escape Files/Environment/Layers/middle.png<>uid://mrifyraysl2s::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset-2.png<>uid://cyekaodnxnvbk::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset.png<>uid://dxxffkrtwo6fd::::res://assets/Super Grotto Escape Files/Environment/Layers/props/plant-big.png<>uid://dymf87l2h10dm::::res://assets/Super Grotto Escape Files/Environment/Layers/props/plant.png<>uid://2qpqsnwk87i8::::res://assets/Super Grotto Escape Files/Environment/Layers/props/palm.png<>uid://un2e63mc30t7::::res://assets/Super Grotto Escape Files/Props/Previews/all-sprites.png<>uid://dgn6r35n5xxqf::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png<>uid://payt543kaycq::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery2.png<>uid://jjweuxw1uuqy::::res://health_item_pickup.tscn<>uid://ctqnvj8hrk3yi::::res://damage_zone.tscn<>uid://b6atsdvt0yrew::::res://Player.tscn<>uid://dix0kwtfpx6hg::::res://powerup.tscn
+::res://Player/::1714164359
+::res://Player/Scripts/::1715806009
+Player.gd::GDScript::-1::1715806009::0::1::::Player<>CharacterBody2D<>::

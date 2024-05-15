@@ -37,6 +37,7 @@ script = ExtResource("1_i5b5s")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_wbj5y")
+autoplay = "default"
 frame_progress = 0.193989
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
