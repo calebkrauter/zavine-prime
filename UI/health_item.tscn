@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://cof264v7wvcb4"]
+
+[ext_resource type="Script" path="res://UI/health_item.gd" id="1_qtlpx"]
+[ext_resource type="Texture2D" uid="uid://dgn6r35n5xxqf" path="res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png" id="2_tvrd6"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2e5gb"]
+
+[node name="HealthItem" type="Panel"]
+custom_minimum_size = Vector2(15, 0)
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(1, 1.01062)
+theme_override_styles/panel = SubResource("StyleBoxEmpty_2e5gb")
+script = ExtResource("1_qtlpx")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -9.53674e-07)
+texture = ExtResource("2_tvrd6")
+centered = false

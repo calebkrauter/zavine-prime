@@ -1,10 +1,10 @@
 [gd_scene load_steps=8 format=3 uid="uid://jjweuxw1uuqy"]
 
-[ext_resource type="Script" path="res://health_item_pickup.gd" id="1_i5b5s"]
+[ext_resource type="Script" path="res://health_item.gd" id="1_4nqxi"]
 [ext_resource type="Texture2D" uid="uid://dgn6r35n5xxqf" path="res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png" id="1_nmodd"]
 [ext_resource type="Texture2D" uid="uid://payt543kaycq" path="res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery2.png" id="2_wi6t5"]
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_wbj5y"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_gquvh"]
 animations = [{
 "frames": [{
 "duration": 1.0,
@@ -32,12 +32,12 @@ fill = 1
 fill_from = Vector2(0.5, 0.5)
 fill_to = Vector2(0.755, 0.065)
 
-[node name="HealthItemPickup" type="Area2D"]
-script = ExtResource("1_i5b5s")
+[node name="HealthItem" type="Area2D"]
+script = ExtResource("1_4nqxi")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-sprite_frames = SubResource("SpriteFrames_wbj5y")
-frame_progress = 0.193989
+sprite_frames = SubResource("SpriteFrames_gquvh")
+frame_progress = 0.9075
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, -1)

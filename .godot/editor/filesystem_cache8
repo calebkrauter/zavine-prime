@@ -1,35 +1,35 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1715378824
+::res://::1716413691
 CollisionShape2D.gd::GDScript::-1::1715209696::0::1::::<>CollisionShape2D<>::
 DamagePlayerState.gd::GDScript::-1::1715209336::0::1::::DamagePlayerState<>State<>::
-damage_zone.tscn::PackedScene::6140286787181629608::1715378824::0::1::::<><>::res://CollisionShape2D.gd
+damage_zone.tscn::PackedScene::6140286787181629608::1715720051::0::1::::<><>::res://CollisionShape2D.gd
 FallPlayerState.gd::GDScript::-1::1715208929::0::1::::FallPlayerState<>State<>::
 global.gd::GDScript::-1::1715143758::0::1::::<>Node<>::
 health.tscn::PackedScene::8256290193014872600::1715143194::0::1::::<><>::uid://dgn6r35n5xxqf::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png
-health_container.gd::GDScript::-1::1715207557::0::1::::<>HBoxContainer<>::
-health_container.tscn::PackedScene::2020819118639835476::1715378823::0::1::::<><>::res://health_container.gd
-health_item.gd::GDScript::-1::1715206679::0::1::::<>Panel<>::
-health_item.tscn::PackedScene::5767503342606908303::1715378823::0::1::::<><>::res://health_item.gd<>uid://dgn6r35n5xxqf::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png
-health_item_pickup.gd::GDScript::-1::1715294502::0::1::::<>Area2D<>::
-health_item_pickup.tscn::PackedScene::651622996577949512::1715294712::0::1::::<><>::res://health_item_pickup.gd<>uid://dgn6r35n5xxqf::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png<>uid://payt543kaycq::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery2.png
+health_container.gd::GDScript::-1::1715719366::0::1::::<>HBoxContainer<>::
+health_container.tscn::PackedScene::2020819118639835476::1715720051::0::1::::<><>::res://health_container.gd
+health_item.gd::GDScript::-1::1715720049::0::1::::<>Area2D<>::
+health_item.tscn::PackedScene::5917283957176584995::1715720396::0::1::::<><>::res://health_item.gd<>uid://dgn6r35n5xxqf::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png<>uid://payt543kaycq::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery2.png
+health_item_pickup.gd::GDScript::-1::1715719271::0::1::::<>Area2D<>::
+health_item_pickup.tscn::PackedScene::651622996577949512::1715719413::0::1::::<><>::res://health_item.gd<>uid://dgn6r35n5xxqf::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png<>uid://payt543kaycq::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery2.png
 icon.svg::CompressedTexture2D::3921026682255503151::1714082504::1714082508::1::::<><>::
-IdlePlayerState.gd::GDScript::-1::1715378366::0::1::::IdlePlayerState<>State<>::
+IdlePlayerState.gd::GDScript::-1::1715718533::0::1::::IdlePlayerState<>State<>::
 JumpPlayerState.gd::GDScript::-1::1714431245::0::1::::JumpPlayerState<>State<>::
-Player.tscn::PackedScene::4563460794533543634::1715378884::0::1::::<><>::uid://buyr5y65a2mbn::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/player-jump2.png<>res://Player/Scripts/Player.gd<>uid://cgwc1h3ofpoc7::::res://user_interface.tscn<>uid://bomssfev1l5it::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle1.png<>uid://b7cooiiw8lcjg::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle2.png<>uid://cx5rf514mj8dc::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-Hurt/player-hurt1.png<>uid://b1ypkcms1iobb::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-Hurt/player-hurt2.png<>uid://07qba7d4aff2::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle3.png<>uid://dyvsj6q2fl8my::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle4.png<>uid://dq7e70fniev3s::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle5.png<>uid://d4ghyyhq6uwd2::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle6.png<>uid://2lmj4hgonkyh::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/player-jump1.png<>uid://b6cr7gpe6uhgy::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run1.png<>uid://pvsrriiesqno::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run2.png<>uid://6d4tg418yrb0::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run3.png<>uid://pafb7yxvd6bw::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run4.png<>uid://bsu5odcn3acmm::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run5.png<>uid://cxdlowpxyed3u::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run6.png<>res://StateMachine.gd<>res://IdlePlayerState.gd<>res://RunningPlayerState.gd<>res://JumpPlayerState.gd<>res://FallPlayerState.gd<>res://DamagePlayerState.gd
-README.md::TextFile::-1::1714139308::0::1::::<><>::
-powerup.tscn::PackedScene::7769790456398296952::1715378824::0::1::::<><>::uid://drpao0e0d18lk::::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-3.png<>res://powerup.gd<>uid://c2ooqukndbpeq::::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-2.png<>uid://cb46g8gckgnq5::::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-5.png<>uid://j8a3k3qc02rr::::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-4.png
+Player.tscn::PackedScene::4563460794533543634::1715720051::0::1::::<><>::uid://buyr5y65a2mbn::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/player-jump2.png<>res://Player/Scripts/Player.gd<>uid://cgwc1h3ofpoc7::::res://user_interface.tscn<>uid://bomssfev1l5it::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle1.png<>uid://b7cooiiw8lcjg::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle2.png<>uid://cx5rf514mj8dc::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-Hurt/player-hurt1.png<>uid://b1ypkcms1iobb::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-Hurt/player-hurt2.png<>uid://07qba7d4aff2::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle3.png<>uid://dyvsj6q2fl8my::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle4.png<>uid://dq7e70fniev3s::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle5.png<>uid://d4ghyyhq6uwd2::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle6.png<>uid://2lmj4hgonkyh::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/player-jump1.png<>uid://b6cr7gpe6uhgy::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run1.png<>uid://pvsrriiesqno::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run2.png<>uid://6d4tg418yrb0::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run3.png<>uid://pafb7yxvd6bw::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run4.png<>uid://bsu5odcn3acmm::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run5.png<>uid://cxdlowpxyed3u::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run6.png<>res://StateMachine.gd<>res://IdlePlayerState.gd<>res://RunningPlayerState.gd<>res://JumpPlayerState.gd<>res://FallPlayerState.gd<>res://DamagePlayerState.gd
 powerup.gd::GDScript::-1::1715378427::0::1::::<>Area2D<>::
-RunningPlayerState.gd::GDScript::-1::1715378366::0::1::::RunningPlayerState<>State<>::
+powerup.tscn::PackedScene::7769790456398296952::1715720051::0::1::::<><>::uid://drpao0e0d18lk::::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-3.png<>res://powerup.gd<>uid://c2ooqukndbpeq::::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-2.png<>uid://cb46g8gckgnq5::::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-5.png<>uid://j8a3k3qc02rr::::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-4.png
+README.md::TextFile::-1::1714139308::0::1::::<><>::
+RunningPlayerState.gd::GDScript::-1::1715718533::0::1::::RunningPlayerState<>State<>::
 State.gd::GDScript::-1::1714428177::0::1::::State<>Node<>::
 StateMachine.gd::GDScript::-1::1714148270::0::1::::StateMachine<>Node<>::
-TestLevel.tscn::PackedScene::8473366366831979977::1715378884::0::1::::<><>::uid://b6atsdvt0yrew::::res://Player.tscn<>uid://cyekaodnxnvbk::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset.png<>uid://cdm5ok10llfrb::::res://Art/Textures/Tilesets/new_tile_set.tres
+TestLevel.tscn::PackedScene::8473366366831979977::1715720051::0::1::::<><>::uid://b6atsdvt0yrew::::res://Player.tscn<>uid://cyekaodnxnvbk::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset.png<>uid://cdm5ok10llfrb::::res://Art/Textures/Tilesets/new_tile_set.tres
 ui.tscn::PackedScene::8027886798417141507::1715142644::0::1::::<><>::
 user_interface.gd::GDScript::-1::1715209890::0::1::::UserInterface<>CanvasLayer<>::
 user_interface.tscn::PackedScene::5239559015992129828::1715294021::0::1::::<><>::res://user_interface.gd<>uid://315uis8lx0om::::res://health_container.tscn
 ::res://Art/::1714603489
 ::res://Art/Textures/::1714603504
-::res://Art/Textures/Tilesets/::1715378367
-new_tile_set.tres::TileSet::5010027508796119295::1715378367::0::1::::<><>::uid://mrifyraysl2s::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset-2.png<>uid://cyekaodnxnvbk::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset.png
+::res://Art/Textures/Tilesets/::1715718533
+new_tile_set.tres::TileSet::5010027508796119295::1715718533::0::1::::<><>::uid://mrifyraysl2s::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset-2.png<>uid://cyekaodnxnvbk::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset.png
 ::res://assets/::1714082602
 ::res://assets/Super Grotto Escape Files/::1714082599
 public-license.txt::TextFile::-1::1714082598::0::1::::<><>::
@@ -528,9 +528,13 @@ fan.png::CompressedTexture2D::6215583720146627049::1714082599::1714082619::1::::
 ._fan.png::::-1::0::0::0::::<><>::
 ::res://Audio/::1714082522
 ::res://Code/::1714082522
-::res://Levels/::1715378867
-virticalSlice.tscn::PackedScene::6410842580335381771::1715378867::0::1::::<><>::uid://bwa7wya7rg65i::::res://assets/Super Grotto Escape Files/Environment/Layers/back.png<>uid://c0w85jvxchuh5::::res://assets/Super Grotto Escape Files/Environment/Layers/far.png<>uid://bodv7g7yjdwj0::::res://assets/Super Grotto Escape Files/Environment/Layers/middle.png<>uid://mrifyraysl2s::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset-2.png<>uid://cyekaodnxnvbk::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset.png<>uid://dxxffkrtwo6fd::::res://assets/Super Grotto Escape Files/Environment/Layers/props/plant-big.png<>uid://dymf87l2h10dm::::res://assets/Super Grotto Escape Files/Environment/Layers/props/plant.png<>uid://2qpqsnwk87i8::::res://assets/Super Grotto Escape Files/Environment/Layers/props/palm.png<>uid://un2e63mc30t7::::res://assets/Super Grotto Escape Files/Props/Previews/all-sprites.png<>uid://dgn6r35n5xxqf::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png<>uid://payt543kaycq::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery2.png<>uid://jjweuxw1uuqy::::res://health_item_pickup.tscn<>uid://ctqnvj8hrk3yi::::res://damage_zone.tscn<>uid://b6atsdvt0yrew::::res://Player.tscn<>uid://dix0kwtfpx6hg::::res://powerup.tscn
+::res://Enemies/::1716413691
+::res://Levels/::1715720051
+virticalSlice.tscn::PackedScene::6410842580335381771::1715720051::0::1::::<><>::uid://bwa7wya7rg65i::::res://assets/Super Grotto Escape Files/Environment/Layers/back.png<>uid://c0w85jvxchuh5::::res://assets/Super Grotto Escape Files/Environment/Layers/far.png<>uid://bodv7g7yjdwj0::::res://assets/Super Grotto Escape Files/Environment/Layers/middle.png<>uid://mrifyraysl2s::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset-2.png<>uid://cyekaodnxnvbk::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset.png<>uid://dxxffkrtwo6fd::::res://assets/Super Grotto Escape Files/Environment/Layers/props/plant-big.png<>uid://dymf87l2h10dm::::res://assets/Super Grotto Escape Files/Environment/Layers/props/plant.png<>uid://2qpqsnwk87i8::::res://assets/Super Grotto Escape Files/Environment/Layers/props/palm.png<>uid://un2e63mc30t7::::res://assets/Super Grotto Escape Files/Props/Previews/all-sprites.png<>uid://dgn6r35n5xxqf::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png<>uid://payt543kaycq::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery2.png<>uid://jjweuxw1uuqy::::res://health_item_pickup.tscn<>uid://ctqnvj8hrk3yi::::res://damage_zone.tscn<>uid://b6atsdvt0yrew::::res://Player.tscn<>uid://dix0kwtfpx6hg::::res://powerup.tscn
 ::res://Levels/Scenes/::1714082535
 ::res://Player/::1714089318
-::res://Player/Scripts/::1715378619
-Player.gd::GDScript::-1::1715378619::0::1::::Player<>CharacterBody2D<>::
+::res://Player/Scripts/::1715718533
+Player.gd::GDScript::-1::1715718533::0::1::::Player<>CharacterBody2D<>::
+::res://UI/::1715720051
+health_item.gd::GDScript::-1::1715206679::0::1::::<>Panel<>::
+health_item.tscn::PackedScene::5767503342606908303::1715720051::0::1::::<><>::res://UI/health_item.gd<>uid://dgn6r35n5xxqf::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png

@@ -2,7 +2,7 @@
 
 extends HBoxContainer
 
-var health_item = preload("res://health_item.tscn")
+var health_item = preload("res://UI/health_item.tscn")
 
 var health_group: Array
 

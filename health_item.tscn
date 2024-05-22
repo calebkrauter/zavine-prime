@@ -1,19 +1,51 @@
-[gd_scene load_steps=4 format=3 uid="uid://cof264v7wvcb4"]
+[gd_scene load_steps=8 format=3 uid="uid://cqkm2jnt2rfm6"]
 
 [ext_resource type="Script" path="res://health_item.gd" id="1_28ph1"]
 [ext_resource type="Texture2D" uid="uid://dgn6r35n5xxqf" path="res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png" id="1_yfsu6"]
+[ext_resource type="Texture2D" uid="uid://payt543kaycq" path="res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery2.png" id="3_xm7y4"]
 
-[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_2e5gb"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_gquvh"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_yfsu6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_xm7y4")
+}],
+"loop": true,
+"name": &"default",
+"speed": 7.0
+}]
 
-[node name="HealthItem" type="Panel"]
-custom_minimum_size = Vector2(15, 0)
-offset_right = 40.0
-offset_bottom = 40.0
-scale = Vector2(1, 1.01062)
-theme_override_styles/panel = SubResource("StyleBoxEmpty_2e5gb")
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_6rjbo"]
+radius = 7.0
+height = 22.0
+
+[sub_resource type="Gradient" id="Gradient_1x2gi"]
+offsets = PackedFloat32Array(0, 0.663594, 1)
+colors = PackedColorArray(1, 1, 1, 1, 0.477747, 1.05888e-06, 0.292238, 0.878431, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_bjxhb"]
+gradient = SubResource("Gradient_1x2gi")
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+fill_to = Vector2(0.755, 0.065)
+
+[node name="HealthItem" type="Area2D"]
 script = ExtResource("1_28ph1")
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(0, -9.53674e-07)
-texture = ExtResource("1_yfsu6")
-centered = false
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_gquvh")
+frame_progress = 0.845617
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -1)
+shape = SubResource("CapsuleShape2D_6rjbo")
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+position = Vector2(0, -1)
+energy = 1.34
+texture = SubResource("GradientTexture2D_bjxhb")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
