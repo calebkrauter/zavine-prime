@@ -3,3 +3,4 @@ res://Player/Scripts/Player.gd
 res://IdlePlayerState.gd
 res://RunningPlayerState.gd
 res://Enemies/skeleton.gd
+res://Enemies/skeleton.tscn
