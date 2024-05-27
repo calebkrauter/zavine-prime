@@ -1,14 +1,14 @@
+Node2D
+Node
 AnimatedSprite2D
 Marker2D
 AnimationPlayer
 CollisionShape2D
 Area2D
 Sprite2D
-Node
 PointLight2D
 Label
 ColorRect
 HBoxContainer
 Panel
 CanvasLayer
-TextureProgressBar
