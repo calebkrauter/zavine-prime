@@ -1,6 +1,10 @@
 res://Levels/virticalSlice.tscn
-res://Player/Scripts/Player.gd
 res://IdlePlayerState.gd
 res://RunningPlayerState.gd
-res://Enemies/skeleton.gd
+res://Player.tscn
+res://UI/health_item.tscn
+res://health_container.tscn
+res://damage_zone.tscn
+res://powerup.tscn
+res://health_item.tscn
 res://Enemies/skeleton.tscn
