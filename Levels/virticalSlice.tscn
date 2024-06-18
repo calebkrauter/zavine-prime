@@ -1757,8 +1757,5 @@ position = Vector2(-186, 68)
 
 [node name="Enemies" type="Node2D" parent="."]
 
-[node name="Skeleton2" parent="Enemies" instance=ExtResource("16_lfkct")]
-position = Vector2(215, 215)
-
 [node name="Skeleton" parent="Enemies" instance=ExtResource("16_lfkct")]
-position = Vector2(614, -136)
+position = Vector2(-55, 218)
