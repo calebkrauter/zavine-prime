@@ -9,3 +9,5 @@ res://health_container.tscn
 res://damage_zone.tscn
 res://powerup.tscn
 res://health_item.tscn
+res://Enemies/eye.tscn
+res://Enemies/eye.gd

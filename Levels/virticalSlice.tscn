@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=3 uid="uid://cxlpv1uudjmkp"]
+[gd_scene load_steps=28 format=3 uid="uid://cxlpv1uudjmkp"]
 
 [ext_resource type="Texture2D" uid="uid://bwa7wya7rg65i" path="res://assets/Super Grotto Escape Files/Environment/Layers/back.png" id="1_074tc"]
 [ext_resource type="Texture2D" uid="uid://c0w85jvxchuh5" path="res://assets/Super Grotto Escape Files/Environment/Layers/far.png" id="2_v8kid"]
@@ -15,6 +15,7 @@
 [ext_resource type="PackedScene" uid="uid://ctqnvj8hrk3yi" path="res://damage_zone.tscn" id="12_b7j17"]
 [ext_resource type="PackedScene" uid="uid://b6atsdvt0yrew" path="res://Player.tscn" id="12_n6b4e"]
 [ext_resource type="PackedScene" uid="uid://dix0kwtfpx6hg" path="res://powerup.tscn" id="13_lmvj6"]
+[ext_resource type="PackedScene" uid="uid://cimnvwui5b4y4" path="res://Enemies/eye.tscn" id="16_aayxe"]
 [ext_resource type="PackedScene" uid="uid://bg114rrkxcfow" path="res://Enemies/skeleton.tscn" id="16_lfkct"]
 
 [sub_resource type="PhysicsMaterial" id="PhysicsMaterial_fdmj0"]
@@ -1757,5 +1758,8 @@ position = Vector2(-186, 68)
 
 [node name="Enemies" type="Node2D" parent="."]
 
+[node name="Eye" parent="Enemies" instance=ExtResource("16_aayxe")]
+position = Vector2(-104, 209)
+
 [node name="Skeleton" parent="Enemies" instance=ExtResource("16_lfkct")]
-position = Vector2(-55, 218)
+position = Vector2(257, 215)

@@ -4,8 +4,8 @@ extends Node2D
 var last_pos: Vector2
 func _ready() -> void:
 	#Not sure why this line breaks the game. But seems to work without it.
-	#$AnimationPlayer.seek(randf_range(0, $AnimationPlayer.current_animation_length))
-	pass
+	$Sprite/AnimationPlayer.seek(randf_range(0, $Sprite/AnimationPlayer.current_animation_length))
+
 
 func _process(delta: float) -> void:
 	change_direction()
