@@ -1,0 +1,86 @@
+[gd_scene load_steps=14 format=3 uid="uid://djr4lriavr5sy"]
+
+[ext_resource type="Script" path="res://Projectile.gd" id="1_mapdw"]
+[ext_resource type="Texture2D" uid="uid://c0hh2c1vvn8ux" path="res://assets/Super Grotto Escape Files/Fx/Sprites/Player-Shoot/player-shoot1.png" id="2_rpdle"]
+[ext_resource type="Texture2D" uid="uid://bk73i8ev58q7u" path="res://assets/Super Grotto Escape Files/Fx/Sprites/Player-Shoot/player-shoot2.png" id="3_lymgx"]
+[ext_resource type="Texture2D" uid="uid://cmm07jav7mytq" path="res://assets/Super Grotto Escape Files/Fx/Sprites/Player-Shoot/player-shoot3.png" id="4_fwf5k"]
+[ext_resource type="Texture2D" uid="uid://df1fuaahxbc8n" path="res://assets/Super Grotto Escape Files/Fx/Sprites/Player-Shoot/player-shoot4.png" id="5_lsuug"]
+[ext_resource type="Texture2D" uid="uid://dmmy4j6pcwdww" path="res://assets/Super Grotto Escape Files/Fx/Sprites/Player-shoot-hit/player-shoot-hit1.png" id="6_yt06b"]
+[ext_resource type="Texture2D" uid="uid://bqupi6ycp7gly" path="res://assets/Super Grotto Escape Files/Fx/Sprites/Player-shoot-hit/player-shoot-hit2.png" id="7_doegv"]
+[ext_resource type="Texture2D" uid="uid://fkakgi0krds0" path="res://assets/Super Grotto Escape Files/Fx/Sprites/Player-shoot-hit/player-shoot-hit3.png" id="8_jajan"]
+[ext_resource type="Texture2D" uid="uid://bnp1hyjqjnxk8" path="res://assets/Super Grotto Escape Files/Fx/Sprites/Player-shoot-hit/player-shoot-hit4.png" id="9_kjloe"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_40hne"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_rpdle")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_lymgx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_fwf5k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_lsuug")
+}],
+"loop": true,
+"name": &"Fired",
+"speed": 7.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_yt06b")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_doegv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_jajan")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_kjloe")
+}],
+"loop": false,
+"name": &"Hit",
+"speed": 7.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_jum2i"]
+radius = 3.0
+height = 10.0
+
+[sub_resource type="Gradient" id="Gradient_icysf"]
+offsets = PackedFloat32Array(0.548387, 1)
+colors = PackedColorArray(0.616495, 1, 0.996688, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_fb1pf"]
+gradient = SubResource("Gradient_icysf")
+fill = 1
+fill_from = Vector2(0.397436, 0.512821)
+fill_to = Vector2(0.307692, 0.529915)
+
+[node name="Projectile" type="Node2D"]
+script = ExtResource("1_mapdw")
+
+[node name="Sprite" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_40hne")
+animation = &"Hit"
+frame = 3
+frame_progress = 1.0
+
+[node name="HitBox" type="Area2D" parent="Sprite"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite/HitBox"]
+position = Vector2(0, 1)
+rotation = -1.5708
+shape = SubResource("CapsuleShape2D_jum2i")
+
+[node name="PointLight2D" type="PointLight2D" parent="Sprite"]
+position = Vector2(-1.13687e-13, 4)
+rotation = 1.5708
+scale = Vector2(0.598547, 1.27284)
+texture = SubResource("GradientTexture2D_fb1pf")
+
+[connection signal="area_entered" from="Sprite/HitBox" to="." method="_on_hit_box_area_entered"]

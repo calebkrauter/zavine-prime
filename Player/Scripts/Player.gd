@@ -14,6 +14,8 @@ extends CharacterBody2D
 var health: int
 var taking_damage: bool = false
 
+var projectile: = preload("res://projectile.tscn")
+
 func _ready() -> void:
 	Global.UI.health_container.create_health(max_health)
 	health = max_health
@@ -67,3 +69,12 @@ func powerup_jump() -> void:
 	jump_velocity = jump_velocity_boost
 	await get_tree().create_timer(3).timeout
 	jump_velocity = jump_velocity_old
+
+func shoot() -> void:
+	var instance = projectile.instantiate()
+	owner.add_child(instance)
+	instance.transform = global_transform
+	if sprite.flip_h == true:
+		instance.direction = "left"
+	else:
+		instance.direction = "right"

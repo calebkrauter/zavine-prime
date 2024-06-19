@@ -21,6 +21,7 @@ func update(delta: float) -> void:
 	
 	if player.taking_damage == true:
 		transition.emit("DamagePlayerState")
-
+	if Input.is_action_just_pressed("shoot"):
+		transition.emit("ShootingPlayerState")
 func physics_update(delta: float) -> void:
 	pass

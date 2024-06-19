@@ -1,4 +1,4 @@
-[gd_scene load_steps=27 format=3 uid="uid://b6atsdvt0yrew"]
+[gd_scene load_steps=33 format=3 uid="uid://b6atsdvt0yrew"]
 
 [ext_resource type="Texture2D" uid="uid://buyr5y65a2mbn" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/player-jump2.png" id="1_iapub"]
 [ext_resource type="Script" path="res://Player/Scripts/Player.gd" id="1_nqc1i"]
@@ -17,13 +17,19 @@
 [ext_resource type="Texture2D" uid="uid://6d4tg418yrb0" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run3.png" id="11_j2p2n"]
 [ext_resource type="Texture2D" uid="uid://pafb7yxvd6bw" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run4.png" id="12_iwuff"]
 [ext_resource type="Texture2D" uid="uid://bsu5odcn3acmm" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run5.png" id="13_dw5bu"]
+[ext_resource type="Texture2D" uid="uid://bwvtlebowiwiw" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-run-shoot/player-run-shoott3.png" id="13_wt26c"]
 [ext_resource type="Texture2D" uid="uid://cxdlowpxyed3u" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run6.png" id="14_g851k"]
 [ext_resource type="Script" path="res://StateMachine.gd" id="16_c4g1p"]
 [ext_resource type="Script" path="res://IdlePlayerState.gd" id="17_ihpen"]
 [ext_resource type="Script" path="res://RunningPlayerState.gd" id="18_q4jbb"]
 [ext_resource type="Script" path="res://JumpPlayerState.gd" id="19_2xdon"]
 [ext_resource type="Script" path="res://FallPlayerState.gd" id="20_qsfas"]
+[ext_resource type="Texture2D" uid="uid://c1ipfty22hefe" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-shoot/player-shoot3.png" id="20_v55u2"]
+[ext_resource type="Texture2D" uid="uid://dxs3o5h4vhjeq" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-shoot/player-shoot2.png" id="21_ytd77"]
+[ext_resource type="Texture2D" uid="uid://cnncl3q4pxqr7" path="res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-shoot/player-shoot1.png" id="22_5gfem"]
 [ext_resource type="Script" path="res://DamagePlayerState.gd" id="24_7mf6w"]
+[ext_resource type="Script" path="res://ShootingPlayerState.gd" id="29_5nlfn"]
+[ext_resource type="Script" path="res://JumpShootingPlayerState.gd" id="30_33qwr"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_l1y3o"]
 animations = [{
@@ -79,6 +85,14 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
+"texture": ExtResource("13_wt26c")
+}],
+"loop": false,
+"name": &"JumpShoot",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
 "texture": ExtResource("9_8xtn5")
 }, {
 "duration": 1.0,
@@ -99,6 +113,20 @@ animations = [{
 "loop": true,
 "name": &"Run",
 "speed": 7.0
+}, {
+"frames": [{
+"duration": 4.0,
+"texture": ExtResource("20_v55u2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_ytd77")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_5gfem")
+}],
+"loop": false,
+"name": &"Shoot",
+"speed": 10.0
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_lcwdo"]
@@ -112,7 +140,7 @@ script = ExtResource("1_nqc1i")
 
 [node name="Sprite" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_l1y3o")
-animation = &"Idle"
+animation = &"Shoot"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(1, 5)
@@ -137,6 +165,12 @@ script = ExtResource("20_qsfas")
 
 [node name="DamagePlayerState" type="Node" parent="PlayerStateMachine"]
 script = ExtResource("24_7mf6w")
+
+[node name="ShootingPlayerState" type="Node" parent="PlayerStateMachine"]
+script = ExtResource("29_5nlfn")
+
+[node name="JumpShootingPlayerState" type="Node" parent="PlayerStateMachine"]
+script = ExtResource("30_33qwr")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 scale = Vector2(9.12, 0.973122)

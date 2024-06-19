@@ -23,7 +23,7 @@ func change_direction() -> void:
 	elif position.x - player.position.x < 0:
 		sprite.flip_h = true
 
-func _on_area_2d_body_entered(body: Node2D) -> void:
+func _on_hit_box_body_entered(body: Node2D) -> void:
 	if body is Player:
 		body.taking_damage = true
 

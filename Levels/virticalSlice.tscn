@@ -1759,7 +1759,16 @@ position = Vector2(-186, 68)
 [node name="Enemies" type="Node2D" parent="."]
 
 [node name="Eye" parent="Enemies" instance=ExtResource("16_aayxe")]
-position = Vector2(-104, 209)
+position = Vector2(-112, 223)
+
+[node name="Eye2" parent="Enemies" instance=ExtResource("16_aayxe")]
+position = Vector2(-57, 134)
+
+[node name="Eye3" parent="Enemies" instance=ExtResource("16_aayxe")]
+position = Vector2(374, -31)
 
 [node name="Skeleton" parent="Enemies" instance=ExtResource("16_lfkct")]
 position = Vector2(257, 215)
+
+[node name="Skeleton2" parent="Enemies" instance=ExtResource("16_lfkct")]
+position = Vector2(623, -136)

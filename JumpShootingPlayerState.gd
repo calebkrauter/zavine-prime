@@ -1,10 +1,11 @@
-class_name RunningPlayerState
+class_name JumpShootingPlayerState
 
 extends State
 
-
 func enter() -> void:
-	player.sprite.play("Run")
+	player.sprite.play("JumpShoot")
+	player.shoot()
+# Called when the node enters the scene tree for the first time.
 
 func exit() -> void:
 	pass
@@ -18,19 +19,15 @@ func update(delta: float) -> void:
 	player.apply_gravity(delta)
 	player.apply_velocity(delta)
 	
-	if input_vector.x == 0:
+	if player.is_on_floor():
 		transition.emit("IdlePlayerState")
-	
-	if Input.is_action_just_pressed("jump") and owner.is_on_floor():
-		transition.emit("JumpPlayerState")
-	
-	if player.velocity.y > 1.0:
-		transition.emit("FallPlayerState")	
 	if player.taking_damage == true:
 		transition.emit("DamagePlayerState")
-	
-	if Input.is_action_just_pressed("shoot"):
-		transition.emit("ShootingPlayerState")
 
-func physics_process(delta: float) -> void:
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta):
 	pass
