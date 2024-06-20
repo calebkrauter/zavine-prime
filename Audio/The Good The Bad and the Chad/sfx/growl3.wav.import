@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cksclj76ure34"
+path="res://.godot/imported/growl3.wav-a1bbc03b8da2d1281c48bbbb84fba7f8.sample"
+
+[deps]
+
+source_file="res://Audio/The Good The Bad and the Chad/sfx/growl3.wav"
+dest_files=["res://.godot/imported/growl3.wav-a1bbc03b8da2d1281c48bbbb84fba7f8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

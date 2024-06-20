@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dpaqvfq8l7v1g"
+path="res://.godot/imported/factory_boss_sample.wav-fa1aff0f5f868958b10510b2580a2960.sample"
+
+[deps]
+
+source_file="res://Audio/The Good The Bad and the Chad/Nathan Hinthorne/factory_boss_sample.wav"
+dest_files=["res://.godot/imported/factory_boss_sample.wav-fa1aff0f5f868958b10510b2580a2960.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,36 @@
+[gd_scene load_steps=9 format=3 uid="uid://bynk6h7eb1rn6"]
+
+[ext_resource type="Script" path="res://audio_manager.gd" id="1_hxbnh"]
+[ext_resource type="AudioStream" uid="uid://dbf7hlc0sy3l" path="res://Audio/The Good The Bad and the Chad/sfx/gunshot1-all sfx.wav" id="2_ii43y"]
+[ext_resource type="AudioStream" uid="uid://bqejfndhuafsm" path="res://Audio/The Good The Bad and the Chad/sfx/deathsound1.wav" id="2_irnid"]
+[ext_resource type="AudioStream" uid="uid://4exiaowv280j" path="res://Audio/The Good The Bad and the Chad/sfx/jump4-all sfx.wav" id="3_jgikx"]
+[ext_resource type="AudioStream" uid="uid://brsq444gu4rm6" path="res://Audio/The Good The Bad and the Chad/sfx/explosion.wav" id="3_x1ung"]
+[ext_resource type="AudioStream" uid="uid://ddrp0ffef3pjj" path="res://Audio/The Good The Bad and the Chad/sfx/eating2.wav" id="4_6iuld"]
+[ext_resource type="AudioStream" uid="uid://bhwtknhachrxx" path="res://Audio/The Good The Bad and the Chad/sfx/jump2-all sfx.wav" id="6_7ry7j"]
+[ext_resource type="AudioStream" uid="uid://c5tk7la8haaid" path="res://Audio/mysterious-1(2).mp3" id="8_blj0a"]
+
+[node name="AudioManager" type="Node2D"]
+script = ExtResource("1_hxbnh")
+
+[node name="GameOver" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_irnid")
+
+[node name="Explosion" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_x1ung")
+
+[node name="Pickup" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("4_6iuld")
+volume_db = 12.0
+
+[node name="Laser" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_ii43y")
+volume_db = 12.451
+
+[node name="Jump" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_jgikx")
+
+[node name="TakeDamage" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_7ry7j")
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8_blj0a")

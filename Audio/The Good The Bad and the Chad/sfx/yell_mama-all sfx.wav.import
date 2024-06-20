@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://df2tvdihlw8f4"
+path="res://.godot/imported/yell_mama-all sfx.wav-282166ae43bea02ae35aa3565646c9db.sample"
+
+[deps]
+
+source_file="res://Audio/The Good The Bad and the Chad/sfx/yell_mama-all sfx.wav"
+dest_files=["res://.godot/imported/yell_mama-all sfx.wav-282166ae43bea02ae35aa3565646c9db.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

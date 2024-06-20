@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://do563qsa1qjql"
+path="res://.godot/imported/Thunder1.mp3-3e16f2ef9ca38a3d16432544ff5caa7f.mp3str"
+
+[deps]
+
+source_file="res://Audio/The Good The Bad and the Chad/Caleb/Thunder1.mp3"
+dest_files=["res://.godot/imported/Thunder1.mp3-3e16f2ef9ca38a3d16432544ff5caa7f.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

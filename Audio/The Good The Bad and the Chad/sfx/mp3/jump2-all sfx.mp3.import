@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://r20u2hs5p22f"
+path="res://.godot/imported/jump2-all sfx.mp3-45f1b2c85ec628995b617ffaea6bb922.mp3str"
+
+[deps]
+
+source_file="res://Audio/The Good The Bad and the Chad/sfx/mp3/jump2-all sfx.mp3"
+dest_files=["res://.godot/imported/jump2-all sfx.mp3-45f1b2c85ec628995b617ffaea6bb922.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

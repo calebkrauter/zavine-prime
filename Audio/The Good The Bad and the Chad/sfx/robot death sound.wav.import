@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://d1qh2vy1asngh"
+path="res://.godot/imported/robot death sound.wav-a8b9d32669e9b1c1a8ed163dd362b89f.sample"
+
+[deps]
+
+source_file="res://Audio/The Good The Bad and the Chad/sfx/robot death sound.wav"
+dest_files=["res://.godot/imported/robot death sound.wav-a8b9d32669e9b1c1a8ed163dd362b89f.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

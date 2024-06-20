@@ -13,5 +13,6 @@ func _process(delta):
 
 func _on_body_entered(body: Node2D) -> void:
 	if body is Player:
+		AudioManager.play_pickup()
 		body.powerup_jump()
 		queue_free()

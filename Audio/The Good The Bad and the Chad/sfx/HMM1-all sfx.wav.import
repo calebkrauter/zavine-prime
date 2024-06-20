@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://b7g6vi1vw5ifo"
+path="res://.godot/imported/HMM1-all sfx.wav-8a71f9679e6f68f83a8ebaa8fac8cf22.sample"
+
+[deps]
+
+source_file="res://Audio/The Good The Bad and the Chad/sfx/HMM1-all sfx.wav"
+dest_files=["res://.godot/imported/HMM1-all sfx.wav-8a71f9679e6f68f83a8ebaa8fac8cf22.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

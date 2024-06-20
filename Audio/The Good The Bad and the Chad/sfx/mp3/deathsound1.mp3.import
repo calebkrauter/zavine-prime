@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bsoinlcv0kxat"
+path="res://.godot/imported/deathsound1.mp3-48ee96462be3ca15034ee97d7fcb38d7.mp3str"
+
+[deps]
+
+source_file="res://Audio/The Good The Bad and the Chad/sfx/mp3/deathsound1.mp3"
+dest_files=["res://.godot/imported/deathsound1.mp3-48ee96462be3ca15034ee97d7fcb38d7.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

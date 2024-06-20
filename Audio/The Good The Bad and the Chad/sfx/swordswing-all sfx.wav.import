@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bymbeko6v01sv"
+path="res://.godot/imported/swordswing-all sfx.wav-b6cb172f526b54d936a6847faa4a8ec1.sample"
+
+[deps]
+
+source_file="res://Audio/The Good The Bad and the Chad/sfx/swordswing-all sfx.wav"
+dest_files=["res://.godot/imported/swordswing-all sfx.wav-b6cb172f526b54d936a6847faa4a8ec1.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

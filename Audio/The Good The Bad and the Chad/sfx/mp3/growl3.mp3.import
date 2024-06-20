@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bp7bfbkk250rt"
+path="res://.godot/imported/growl3.mp3-9bcf18b2a555793d69830b9ea011e830.mp3str"
+
+[deps]
+
+source_file="res://Audio/The Good The Bad and the Chad/sfx/mp3/growl3.mp3"
+dest_files=["res://.godot/imported/growl3.mp3-9bcf18b2a555793d69830b9ea011e830.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

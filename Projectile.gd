@@ -25,6 +25,7 @@ func _process(delta: float) -> void:
 func explode() -> void:
 	sprite.play("Hit")
 	moving = false
+	AudioManager.play_explosion()
 	await sprite.animation_finished
 	queue_free()
 

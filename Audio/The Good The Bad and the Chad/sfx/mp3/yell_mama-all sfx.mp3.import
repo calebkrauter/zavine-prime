@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cdps7in68mpbe"
+path="res://.godot/imported/yell_mama-all sfx.mp3-c00d34a5b94b068d85374a2838fb0106.mp3str"
+
+[deps]
+
+source_file="res://Audio/The Good The Bad and the Chad/sfx/mp3/yell_mama-all sfx.mp3"
+dest_files=["res://.godot/imported/yell_mama-all sfx.mp3-c00d34a5b94b068d85374a2838fb0106.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

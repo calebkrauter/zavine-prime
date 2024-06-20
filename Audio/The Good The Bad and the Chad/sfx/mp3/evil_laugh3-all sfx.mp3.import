@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://r43o1mq3of4l"
+path="res://.godot/imported/evil_laugh3-all sfx.mp3-4ac249317fb79576e9a61579f3a7c25b.mp3str"
+
+[deps]
+
+source_file="res://Audio/The Good The Bad and the Chad/sfx/mp3/evil_laugh3-all sfx.mp3"
+dest_files=["res://.godot/imported/evil_laugh3-all sfx.mp3-4ac249317fb79576e9a61579f3a7c25b.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

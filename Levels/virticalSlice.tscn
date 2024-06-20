@@ -1767,8 +1767,20 @@ position = Vector2(-57, 134)
 [node name="Eye3" parent="Enemies" instance=ExtResource("16_aayxe")]
 position = Vector2(374, -31)
 
+[node name="Eye4" parent="Enemies" instance=ExtResource("16_aayxe")]
+position = Vector2(597, 145)
+
+[node name="Eye5" parent="Enemies" instance=ExtResource("16_aayxe")]
+position = Vector2(61, -77)
+
 [node name="Skeleton" parent="Enemies" instance=ExtResource("16_lfkct")]
 position = Vector2(257, 215)
 
 [node name="Skeleton2" parent="Enemies" instance=ExtResource("16_lfkct")]
 position = Vector2(623, -136)
+
+[node name="Skeleton3" parent="Enemies" instance=ExtResource("16_lfkct")]
+position = Vector2(398, 214)
+
+[node name="Skeleton4" parent="Enemies" instance=ExtResource("16_lfkct")]
+position = Vector2(389, -218)

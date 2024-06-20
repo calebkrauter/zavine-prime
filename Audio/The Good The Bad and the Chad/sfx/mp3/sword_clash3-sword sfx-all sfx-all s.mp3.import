@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cem2wfcpit7sj"
+path="res://.godot/imported/sword_clash3-sword sfx-all sfx-all s.mp3-ded8014cd8ea967f1af5cbf75fd9db92.mp3str"
+
+[deps]
+
+source_file="res://Audio/The Good The Bad and the Chad/sfx/mp3/sword_clash3-sword sfx-all sfx-all s.mp3"
+dest_files=["res://.godot/imported/sword_clash3-sword sfx-all sfx-all s.mp3-ded8014cd8ea967f1af5cbf75fd9db92.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

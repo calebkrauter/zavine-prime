@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://eaq2ci1onn2k"
+path="res://.godot/imported/test_file_10mb.wav-471b1535e7a2a49f1d1eecb8c98d89e8.sample"
+
+[deps]
+
+source_file="res://Audio/The Good The Bad and the Chad/Nathan Hinthorne/test_file_10mb.wav"
+dest_files=["res://.godot/imported/test_file_10mb.wav-471b1535e7a2a49f1d1eecb8c98d89e8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

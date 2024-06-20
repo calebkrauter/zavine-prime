@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bhtlc1m6tl1n3"
+path="res://.godot/imported/village_town_square_sample.wav-16d55b09bb1fe78481042c18254a6791.sample"
+
+[deps]
+
+source_file="res://Audio/The Good The Bad and the Chad/Nathan Hinthorne/village_town_square_sample.wav"
+dest_files=["res://.godot/imported/village_town_square_sample.wav-16d55b09bb1fe78481042c18254a6791.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

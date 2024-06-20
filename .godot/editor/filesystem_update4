@@ -1,13 +1,9 @@
-res://Projectile.gd
 res://IdlePlayerState.gd
 res://RunningPlayerState.gd
-res://projectile.tscn
-res://Player.tscn
+res://audio_manager.tscn
+res://audio_manager.gd
 res://Player/Scripts/Player.gd
-res://ShootingPlayerState.gd
-res://FallPlayerState.gd
-res://JumpPlayerState.gd
-res://JumpShootingPlayerState.gd
+res://Player.tscn
 res://Levels/virticalSlice.tscn
 res://UI/health_item.tscn
 res://health_container.tscn
@@ -16,5 +12,8 @@ res://powerup.tscn
 res://health_item.tscn
 res://Enemies/skeleton.tscn
 res://Enemies/eye.tscn
-res://Enemies/eye.gd
-res://Enemies/skeleton.gd
+res://projectile.tscn
+res://Projectile.gd
+res://default_bus_layout.tres
+res://health_item.gd
+res://powerup.gd

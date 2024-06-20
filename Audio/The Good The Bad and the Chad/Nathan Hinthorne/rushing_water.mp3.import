@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://gqh11i8fs8j4"
+path="res://.godot/imported/rushing_water.mp3-c0c83eccd743796a7a93bfd63683caf3.mp3str"
+
+[deps]
+
+source_file="res://Audio/The Good The Bad and the Chad/Nathan Hinthorne/rushing_water.mp3"
+dest_files=["res://.godot/imported/rushing_water.mp3-c0c83eccd743796a7a93bfd63683caf3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

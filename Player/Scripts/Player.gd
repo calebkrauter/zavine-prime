@@ -40,6 +40,7 @@ func apply_velocity(delta: float) -> void:
 
 func apply_jump() -> void:
 	velocity.y -= jump_velocity
+	AudioManager.play_jump()
 
 func apply_damage_jump() -> void:
 	velocity.y = -jump_velocity * 1.5
@@ -55,8 +56,11 @@ func change_direction(direction) -> void:
 func take_damage() -> void:
 	health -= 1
 	Global.UI.health_container.update_health(health)
+	AudioManager.play_take_damage()
 	if health == 0:
 		Global.UI.game_over.set_visible(true)
+		AudioManager.play_gameover()
+		
 
 func add_health() -> void:
 	if health < max_health:
@@ -78,3 +82,4 @@ func shoot() -> void:
 		instance.direction = "left"
 	else:
 		instance.direction = "right"
+	AudioManager.play_laser()

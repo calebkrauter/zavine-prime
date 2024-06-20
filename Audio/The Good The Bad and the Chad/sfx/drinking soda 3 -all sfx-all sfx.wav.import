@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c4k4f08a2rued"
+path="res://.godot/imported/drinking soda 3 -all sfx-all sfx.wav-0a66131f361b4c999615e31e0740f9de.sample"
+
+[deps]
+
+source_file="res://Audio/The Good The Bad and the Chad/sfx/drinking soda 3 -all sfx-all sfx.wav"
+dest_files=["res://.godot/imported/drinking soda 3 -all sfx-all sfx.wav-0a66131f361b4c999615e31e0740f9de.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,29 +1,32 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1718822738
+::res://::1718848150
 CollisionShape2D.gd::GDScript::-1::1715209696::0::1::::<>CollisionShape2D<>::
 DamagePlayerState.gd::GDScript::-1::1715209336::0::1::::DamagePlayerState<>State<>::
-damage_zone.tscn::PackedScene::6140286787181629608::1718822684::0::1::::<><>::res://CollisionShape2D.gd
+damage_zone.tscn::PackedScene::6140286787181629608::1718848149::0::1::::<><>::res://CollisionShape2D.gd
 FallPlayerState.gd::GDScript::-1::1718822154::0::1::::FallPlayerState<>State<>::
 global.gd::GDScript::-1::1715143758::0::1::::<>Node<>::
 health.tscn::PackedScene::8256290193014872600::1715143194::0::1::::<><>::uid://dgn6r35n5xxqf::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png
 health_container.gd::GDScript::-1::1715719366::0::1::::<>HBoxContainer<>::
-health_container.tscn::PackedScene::2020819118639835476::1718822684::0::1::::<><>::res://health_container.gd
-health_item.gd::GDScript::-1::1715720049::0::1::::<>Area2D<>::
-health_item.tscn::PackedScene::5917283957176584995::1718822685::0::1::::<><>::res://health_item.gd<>uid://dgn6r35n5xxqf::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png<>uid://payt543kaycq::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery2.png
+health_container.tscn::PackedScene::2020819118639835476::1718848149::0::1::::<><>::res://health_container.gd
+health_item.gd::GDScript::-1::1718847847::0::1::::<>Area2D<>::
+health_item.tscn::PackedScene::5917283957176584995::1718848149::0::1::::<><>::res://health_item.gd<>uid://dgn6r35n5xxqf::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png<>uid://payt543kaycq::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery2.png
 health_item_pickup.gd::GDScript::-1::1715719271::0::1::::<>Area2D<>::
 health_item_pickup.tscn::PackedScene::651622996577949512::1716413770::0::1::::<><>::res://health_item.gd<>uid://dgn6r35n5xxqf::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png<>uid://payt543kaycq::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery2.png
 icon.svg::CompressedTexture2D::3921026682255503151::1714082504::1714082508::1::::<><>::
-IdlePlayerState.gd::GDScript::-1::1718821152::0::1::::IdlePlayerState<>State<>::
+IdlePlayerState.gd::GDScript::-1::1718846797::0::1::::IdlePlayerState<>State<>::
 JumpPlayerState.gd::GDScript::-1::1718822478::0::1::::JumpPlayerState<>State<>::
-Player.tscn::PackedScene::4563460794533543634::1718822738::0::1::::<><>::uid://buyr5y65a2mbn::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/player-jump2.png<>res://Player/Scripts/Player.gd<>uid://cgwc1h3ofpoc7::::res://user_interface.tscn<>uid://bomssfev1l5it::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle1.png<>uid://b7cooiiw8lcjg::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle2.png<>uid://cx5rf514mj8dc::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-Hurt/player-hurt1.png<>uid://b1ypkcms1iobb::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-Hurt/player-hurt2.png<>uid://07qba7d4aff2::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle3.png<>uid://dyvsj6q2fl8my::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle4.png<>uid://dq7e70fniev3s::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle5.png<>uid://d4ghyyhq6uwd2::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle6.png<>uid://2lmj4hgonkyh::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/player-jump1.png<>uid://b6cr7gpe6uhgy::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run1.png<>uid://pvsrriiesqno::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run2.png<>uid://6d4tg418yrb0::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run3.png<>uid://pafb7yxvd6bw::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run4.png<>uid://bsu5odcn3acmm::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run5.png<>uid://bwvtlebowiwiw::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-run-shoot/player-run-shoott3.png<>uid://cxdlowpxyed3u::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run6.png<>res://StateMachine.gd<>res://IdlePlayerState.gd<>res://RunningPlayerState.gd<>res://JumpPlayerState.gd<>res://FallPlayerState.gd<>uid://c1ipfty22hefe::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-shoot/player-shoot3.png<>uid://dxs3o5h4vhjeq::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-shoot/player-shoot2.png<>uid://cnncl3q4pxqr7::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-shoot/player-shoot1.png<>res://DamagePlayerState.gd<>res://ShootingPlayerState.gd<>res://JumpShootingPlayerState.gd
-powerup.gd::GDScript::-1::1715378427::0::1::::<>Area2D<>::
-powerup.tscn::PackedScene::7769790456398296952::1718822685::0::1::::<><>::uid://drpao0e0d18lk::::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-3.png<>res://powerup.gd<>uid://c2ooqukndbpeq::::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-2.png<>uid://cb46g8gckgnq5::::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-5.png<>uid://j8a3k3qc02rr::::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-4.png
-README.md::TextFile::-1::1714139308::0::1::::<><>::
-Projectile.gd::GDScript::-1::1718822267::0::1::::<>Node2D<>::
-projectile.tscn::PackedScene::7827837407447946444::1718822685::0::1::::<><>::res://Projectile.gd<>uid://c0hh2c1vvn8ux::::res://assets/Super Grotto Escape Files/Fx/Sprites/Player-Shoot/player-shoot1.png<>uid://bk73i8ev58q7u::::res://assets/Super Grotto Escape Files/Fx/Sprites/Player-Shoot/player-shoot2.png<>uid://cmm07jav7mytq::::res://assets/Super Grotto Escape Files/Fx/Sprites/Player-Shoot/player-shoot3.png<>uid://df1fuaahxbc8n::::res://assets/Super Grotto Escape Files/Fx/Sprites/Player-Shoot/player-shoot4.png<>uid://dmmy4j6pcwdww::::res://assets/Super Grotto Escape Files/Fx/Sprites/Player-shoot-hit/player-shoot-hit1.png<>uid://bqupi6ycp7gly::::res://assets/Super Grotto Escape Files/Fx/Sprites/Player-shoot-hit/player-shoot-hit2.png<>uid://fkakgi0krds0::::res://assets/Super Grotto Escape Files/Fx/Sprites/Player-shoot-hit/player-shoot-hit3.png<>uid://bnp1hyjqjnxk8::::res://assets/Super Grotto Escape Files/Fx/Sprites/Player-shoot-hit/player-shoot-hit4.png
 JumpShootingPlayerState.gd::GDScript::-1::1718822057::0::1::::JumpShootingPlayerState<>State<>::
+Player.tscn::PackedScene::4563460794533543634::1718848149::0::1::::<><>::uid://buyr5y65a2mbn::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/player-jump2.png<>res://Player/Scripts/Player.gd<>uid://cgwc1h3ofpoc7::::res://user_interface.tscn<>uid://bomssfev1l5it::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle1.png<>uid://b7cooiiw8lcjg::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle2.png<>uid://cx5rf514mj8dc::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-Hurt/player-hurt1.png<>uid://b1ypkcms1iobb::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-Hurt/player-hurt2.png<>uid://07qba7d4aff2::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle3.png<>uid://dyvsj6q2fl8my::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle4.png<>uid://dq7e70fniev3s::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle5.png<>uid://d4ghyyhq6uwd2::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-idle/player-idle6.png<>uid://2lmj4hgonkyh::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-jump/player-jump1.png<>uid://b6cr7gpe6uhgy::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run1.png<>uid://pvsrriiesqno::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run2.png<>uid://6d4tg418yrb0::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run3.png<>uid://pafb7yxvd6bw::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run4.png<>uid://bsu5odcn3acmm::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run5.png<>uid://bwvtlebowiwiw::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-run-shoot/player-run-shoott3.png<>uid://cxdlowpxyed3u::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/player-run/player-run6.png<>res://StateMachine.gd<>res://IdlePlayerState.gd<>res://RunningPlayerState.gd<>res://JumpPlayerState.gd<>res://FallPlayerState.gd<>uid://c1ipfty22hefe::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-shoot/player-shoot3.png<>uid://dxs3o5h4vhjeq::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-shoot/player-shoot2.png<>uid://cnncl3q4pxqr7::::res://assets/Super Grotto Escape Files/Characters/Player/sprites/Player-shoot/player-shoot1.png<>res://DamagePlayerState.gd<>res://ShootingPlayerState.gd<>res://JumpShootingPlayerState.gd
+powerup.gd::GDScript::-1::1718847847::0::1::::<>Area2D<>::
+powerup.tscn::PackedScene::7769790456398296952::1718848149::0::1::::<><>::uid://drpao0e0d18lk::::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-3.png<>res://powerup.gd<>uid://c2ooqukndbpeq::::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-2.png<>uid://cb46g8gckgnq5::::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-5.png<>uid://j8a3k3qc02rr::::res://assets/Super Grotto Escape Files/Fx/Sprites/Pick Feedback 2/pick-feedback-4.png
+Projectile.gd::GDScript::-1::1718847281::0::1::::<>Node2D<>::
+projectile.tscn::PackedScene::7827837407447946444::1718848149::0::1::::<><>::res://Projectile.gd<>uid://c0hh2c1vvn8ux::::res://assets/Super Grotto Escape Files/Fx/Sprites/Player-Shoot/player-shoot1.png<>uid://bk73i8ev58q7u::::res://assets/Super Grotto Escape Files/Fx/Sprites/Player-Shoot/player-shoot2.png<>uid://cmm07jav7mytq::::res://assets/Super Grotto Escape Files/Fx/Sprites/Player-Shoot/player-shoot3.png<>uid://df1fuaahxbc8n::::res://assets/Super Grotto Escape Files/Fx/Sprites/Player-Shoot/player-shoot4.png<>uid://dmmy4j6pcwdww::::res://assets/Super Grotto Escape Files/Fx/Sprites/Player-shoot-hit/player-shoot-hit1.png<>uid://bqupi6ycp7gly::::res://assets/Super Grotto Escape Files/Fx/Sprites/Player-shoot-hit/player-shoot-hit2.png<>uid://fkakgi0krds0::::res://assets/Super Grotto Escape Files/Fx/Sprites/Player-shoot-hit/player-shoot-hit3.png<>uid://bnp1hyjqjnxk8::::res://assets/Super Grotto Escape Files/Fx/Sprites/Player-shoot-hit/player-shoot-hit4.png
+README.md::TextFile::-1::1714139308::0::1::::<><>::
+audio_manager.tscn::PackedScene::4098452788628684157::1718848150::0::1::::<><>::res://audio_manager.gd<>uid://dbf7hlc0sy3l::::res://Audio/The Good The Bad and the Chad/sfx/gunshot1-all sfx.wav<>uid://bqejfndhuafsm::::res://Audio/The Good The Bad and the Chad/sfx/deathsound1.wav<>uid://4exiaowv280j::::res://Audio/The Good The Bad and the Chad/sfx/jump4-all sfx.wav<>uid://brsq444gu4rm6::::res://Audio/The Good The Bad and the Chad/sfx/explosion.wav<>uid://ddrp0ffef3pjj::::res://Audio/The Good The Bad and the Chad/sfx/eating2.wav<>uid://bhwtknhachrxx::::res://Audio/The Good The Bad and the Chad/sfx/jump2-all sfx.wav<>uid://c5tk7la8haaid::::res://Audio/mysterious-1(2).mp3
+audio_manager.gd::GDScript::-1::1718848108::0::1::::<>Node2D<>::
+default_bus_layout.tres::AudioBusLayout::5905978507727283373::1718848144::0::1::::<><>::
+RunningPlayerState.gd::GDScript::-1::1718846797::0::1::::RunningPlayerState<>State<>::
 ShootingPlayerState.gd::GDScript::-1::1718822635::0::1::::ShootingPlayerState<>State<>::
-RunningPlayerState.gd::GDScript::-1::1718821152::0::1::::RunningPlayerState<>State<>::
 State.gd::GDScript::-1::1714428177::0::1::::State<>Node<>::
 StateMachine.gd::GDScript::-1::1714148270::0::1::::StateMachine<>Node<>::
 TestLevel.tscn::PackedScene::8473366366831979977::1715720051::0::1::::<><>::uid://b6atsdvt0yrew::::res://Player.tscn<>uid://cyekaodnxnvbk::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset.png<>uid://cdm5ok10llfrb::::res://Art/Textures/Tilesets/new_tile_set.tres
@@ -530,19 +533,137 @@ fan.png::CompressedTexture2D::6215583720146627049::1714082599::1714082619::1::::
 ._fan2.png::::-1::0::0::0::::<><>::
 ::res://assets/__MACOSX/Super Grotto Escape Files/Props/Spritesheets/::1714082603
 ._fan.png::::-1::0::0::0::::<><>::
-::res://Audio/::1714082522
+::res://Audio/::1718846687
+get-serious-1(2).mp3::AudioStreamMP3::3456527630637009669::1718846685::1718846685::1::::<><>::
+hype-train-1(2).mp3::AudioStreamMP3::5063960497220337126::1718846684::1718846685::1::::<><>::
+inspirational-1(2).mp3::AudioStreamMP3::1464941525109794902::1718846685::1718846685::1::::<><>::
+MainMenu.wav::AudioStreamWAV::1421010478091669191::1718846685::1718846686::1::::<><>::
+mysterious-1(2).mp3::AudioStreamMP3::6918394748452505891::1718846685::1718846685::1::::<><>::
+TreasureHunt.wav::AudioStreamWAV::7400152653850519898::1718846685::1718846687::1::::<><>::
+::res://Audio/The Good The Bad and the Chad/::1718846735
+::res://Audio/The Good The Bad and the Chad/Caleb/::1718846685
+Cave Adventure 1.mp3::AudioStreamMP3::410315897723106436::1718846685::1718846685::1::::<><>::
+ICE.mp3::AudioStreamMP3::3251674798123756546::1718846685::1718846685::1::::<><>::
+Intimidating1.mp3::AudioStreamMP3::8612728741101916782::1718846685::1718846685::1::::<><>::
+Thunder1.mp3::AudioStreamMP3::8205770291854113647::1718846685::1718846685::1::::<><>::
+::res://Audio/The Good The Bad and the Chad/Nathan Hinthorne/::1718846687
+chad_playful_adventure.mp3::AudioStreamMP3::4615340668312482320::1718846685::1718846685::1::::<><>::
+chad_victorious_emotional.mp3::AudioStreamMP3::6622184999798680968::1718846685::1718846685::1::::<><>::
+factory_boss_sample.wav::AudioStreamWAV::8213103968055028126::1718846685::1718846687::1::::<><>::
+forest_boss.mp3::AudioStreamMP3::3098686643519625155::1718846685::1718846685::1::::<><>::
+high_energy_sample.wav::AudioStreamWAV::7031808802839666620::1718846685::1718846687::1::::<><>::
+lava_normal.mp3::AudioStreamMP3::4185341616638975011::1718846685::1718846685::1::::<><>::
+lava_tense.mp3::AudioStreamMP3::8224276882813995306::1718846685::1718846685::1::::<><>::
+lava_underground.mp3::AudioStreamMP3::3123865437821594307::1718846685::1718846685::1::::<><>::
+mountain_mysterious.mp3::AudioStreamMP3::609130438155001702::1718846685::1718846685::1::::<><>::
+peaceful_chiptune.mp3::AudioStreamMP3::7356977050882935293::1718846685::1718846685::1::::<><>::
+rushing_water.mp3::AudioStreamMP3::454635934956378963::1718846685::1718846685::1::::<><>::
+test_file_10mb.wav::AudioStreamWAV::281775181477517404::1718846685::1718846686::1::::<><>::
+upbeat_chiptune_1_sample.wav::AudioStreamWAV::187242155757621781::1718846685::1718846686::1::::<><>::
+upbeat_chiptune_2_sample.wav::AudioStreamWAV::4251304002185665067::1718846685::1718846686::1::::<><>::
+victory_sample.wav::AudioStreamWAV::389298227658619133::1718846685::1718846686::1::::<><>::
+village_simple_life.mp3::AudioStreamMP3::201668313022303997::1718846685::1718846685::1::::<><>::
+village_town_square_sample.wav::AudioStreamWAV::2917638610573812518::1718846685::1718846686::1::::<><>::
+::res://Audio/The Good The Bad and the Chad/sfx/::1718846737
+deathsound1.wav::AudioStreamWAV::3518255762605027172::1718846735::1718846737::1::::<><>::
+deathsound2-all sfx.wav::AudioStreamWAV::7179496275369543598::1718846735::1718846737::1::::<><>::
+drinking soda 2-all sfx.wav::AudioStreamWAV::602672455348444879::1718846735::1718846737::1::::<><>::
+drinking soda 3 -all sfx-all sfx.wav::AudioStreamWAV::6830732696288562771::1718846735::1718846737::1::::<><>::
+eating1-all sfx.wav::AudioStreamWAV::8407306471915816191::1718846736::1718846737::1::::<><>::
+eating2.wav::AudioStreamWAV::7405878674081850215::1718846736::1718846737::1::::<><>::
+evil_death_sound1-all sfx.wav::AudioStreamWAV::1662655938216605660::1718846736::1718846737::1::::<><>::
+evil_laugh1-all sfx.wav::AudioStreamWAV::2644505678004957689::1718846736::1718846737::1::::<><>::
+evil_laugh2-all sfx.wav::AudioStreamWAV::5920393100399324335::1718846736::1718846737::1::::<><>::
+evil_laugh3-all sfx.wav::AudioStreamWAV::4784747380013413380::1718846736::1718846737::1::::<><>::
+explosion.wav::AudioStreamWAV::3617814653297214371::1718846736::1718846737::1::::<><>::
+firing2-all sfx.wav::AudioStreamWAV::3800821848347761791::1718846736::1718846737::1::::<><>::
+growl1.wav::AudioStreamWAV::2697638341028852100::1718846736::1718846737::1::::<><>::
+growl2.wav::AudioStreamWAV::1974189069650803242::1718846736::1718846737::1::::<><>::
+growl3.wav::AudioStreamWAV::5512030204637879949::1718846736::1718846737::1::::<><>::
+growl4.wav::AudioStreamWAV::520463783728743499::1718846736::1718846737::1::::<><>::
+gunshot1-all sfx.wav::AudioStreamWAV::212992023818260931::1718846736::1718846737::1::::<><>::
+HMM1-all sfx.wav::AudioStreamWAV::4646770136418707016::1718846736::1718846737::1::::<><>::
+HMM2-all sfx.wav::AudioStreamWAV::8794566788241168486::1718846736::1718846737::1::::<><>::
+HMM3-Track 3.wav::AudioStreamWAV::1089102656275002588::1718846736::1718846737::1::::<><>::
+HMM4-all sfx.wav::AudioStreamWAV::446559716801581775::1718846736::1718846737::1::::<><>::
+itemcollect1.wav::AudioStreamWAV::8125188438118723244::1718846736::1718846737::1::::<><>::
+jump1-all sfx.wav::AudioStreamWAV::6452783154227709184::1718846736::1718846737::1::::<><>::
+jump2-all sfx.wav::AudioStreamWAV::2924331074170405633::1718846736::1718846737::1::::<><>::
+jump3-all sfx.wav::AudioStreamWAV::2932260576699101617::1718846736::1718846737::1::::<><>::
+jump4-all sfx.wav::AudioStreamWAV::2045144776360050503::1718846736::1718846737::1::::<><>::
+land1-all sfx.wav::AudioStreamWAV::8285878627424148555::1718846736::1718846737::1::::<><>::
+robot death sound.wav::AudioStreamWAV::9017676406365601751::1718846736::1718846737::1::::<><>::
+slime walking-all sfx.wav::AudioStreamWAV::894319377544157500::1718846736::1718846737::1::::<><>::
+slime_jump-all sfx.wav::AudioStreamWAV::7869618714797582510::1718846736::1718846737::1::::<><>::
+slingshotfire1-all sfx.wav::AudioStreamWAV::4636907943457477588::1718846736::1718846737::1::::<><>::
+soda_burp2-all sfx-1-all sfx-1.wav::AudioStreamWAV::6506465392260025599::1718846736::1718846737::1::::<><>::
+soda_burp2-all sfx-1-Track 2-2.wav::AudioStreamWAV::830220648075517785::1718846736::1718846737::1::::<><>::
+soda_burp-all sfx-1.wav::AudioStreamWAV::6604279449259218710::1718846736::1718846737::1::::<><>::
+soda_burp-Track 2-2.wav::AudioStreamWAV::7951285554214641493::1718846736::1718846737::1::::<><>::
+swoosh-all sfx.wav::AudioStreamWAV::1591674546699781151::1718846736::1718846737::1::::<><>::
+swordswing-all sfx.wav::AudioStreamWAV::4095793872521319385::1718846736::1718846737::1::::<><>::
+sword_clash1-sword sfx.wav::AudioStreamWAV::6703517727097304602::1718846736::1718846737::1::::<><>::
+sword_clash2-sword sfx-all sfx.wav::AudioStreamWAV::1181557644469689607::1718846736::1718846737::1::::<><>::
+sword_clash3-sword sfx-all sfx-all sfx.wav::AudioStreamWAV::3564992865142009547::1718846736::1718846737::1::::<><>::
+upgradeequip-all sfx.wav::AudioStreamWAV::8139739977492447669::1718846736::1718846737::1::::<><>::
+yell_mama-all sfx.wav::AudioStreamWAV::7567135763425781131::1718846736::1718846737::1::::<><>::
+yeti talking 1-all sfx.wav::AudioStreamWAV::4250884874690604112::1718846736::1718846737::1::::<><>::
+::res://Audio/The Good The Bad and the Chad/sfx/mp3/::1718846737
+deathsound1.mp3::AudioStreamMP3::3679230690831848559::1718846736::1718846737::1::::<><>::
+deathsound2-all sfx.mp3::AudioStreamMP3::3524806836948709021::1718846736::1718846737::1::::<><>::
+drinking soda 2-all sfx.mp3::AudioStreamMP3::8150380568265414937::1718846736::1718846737::1::::<><>::
+drinking soda 3 -all sfx-all sfx.mp3::AudioStreamMP3::7309068623231727204::1718846736::1718846737::1::::<><>::
+eating1-all sfx.mp3::AudioStreamMP3::7097582921269754678::1718846736::1718846736::1::::<><>::
+eating2.mp3::AudioStreamMP3::6583460089363818924::1718846736::1718846736::1::::<><>::
+evil_death_sound1-all sfx.mp3::AudioStreamMP3::4197511542762892740::1718846736::1718846736::1::::<><>::
+evil_laugh1-all sfx.mp3::AudioStreamMP3::5620864209571232546::1718846736::1718846736::1::::<><>::
+evil_laugh2-all sfx.mp3::AudioStreamMP3::2871179705090054684::1718846736::1718846736::1::::<><>::
+evil_laugh3-all sfx.mp3::AudioStreamMP3::1254803758536111529::1718846736::1718846736::1::::<><>::
+explosion.mp3::AudioStreamMP3::6268421651109040165::1718846736::1718846736::1::::<><>::
+firing2-all sfx.mp3::AudioStreamMP3::5241717363137079408::1718846736::1718846736::1::::<><>::
+growl1.mp3::AudioStreamMP3::8017905134222065709::1718846736::1718846736::1::::<><>::
+growl2.mp3::AudioStreamMP3::8889263815266061587::1718846736::1718846736::1::::<><>::
+growl3.mp3::AudioStreamMP3::3505383140818828825::1718846736::1718846736::1::::<><>::
+growl4.mp3::AudioStreamMP3::9156990751507291261::1718846736::1718846736::1::::<><>::
+gunshot1-all sfx.mp3::AudioStreamMP3::8606455892589143462::1718846736::1718846736::1::::<><>::
+HMM1-all sfx.mp3::AudioStreamMP3::1926972717420306836::1718846736::1718846736::1::::<><>::
+HMM2-all sfx.mp3::AudioStreamMP3::6716121048209535305::1718846736::1718846736::1::::<><>::
+HMM3-Track 3.mp3::AudioStreamMP3::8256324574831262804::1718846736::1718846736::1::::<><>::
+HMM4-all sfx.mp3::AudioStreamMP3::1158030756061160417::1718846736::1718846736::1::::<><>::
+itemcollect1.mp3::AudioStreamMP3::4662031133490199464::1718846736::1718846737::1::::<><>::
+jump1-all sfx.mp3::AudioStreamMP3::8820605153165311615::1718846736::1718846737::1::::<><>::
+jump2-all sfx.mp3::AudioStreamMP3::1250503611706058207::1718846736::1718846737::1::::<><>::
+jump3-all sfx.mp3::AudioStreamMP3::6482524521524088538::1718846736::1718846737::1::::<><>::
+jump4-all sfx.mp3::AudioStreamMP3::5263516455933783789::1718846736::1718846737::1::::<><>::
+land1-all sfx.mp3::AudioStreamMP3::8025870416724829497::1718846736::1718846737::1::::<><>::
+robot death sound.mp3::AudioStreamMP3::8194317891494789695::1718846736::1718846737::1::::<><>::
+slime walking-all sfx.mp3::AudioStreamMP3::8078315564954200248::1718846736::1718846737::1::::<><>::
+slime_jump-all sfx.mp3::AudioStreamMP3::8512331384385916274::1718846736::1718846737::1::::<><>::
+slingshotfire1-all sfx.mp3::AudioStreamMP3::7200701475974427118::1718846736::1718846737::1::::<><>::
+soda_burp2-all sfx-1-all sfx-1.mp3::AudioStreamMP3::1158405521038729323::1718846736::1718846737::1::::<><>::
+soda_burp2-all sfx-1-Track 2-2.mp3::AudioStreamMP3::1896585697231533776::1718846736::1718846737::1::::<><>::
+soda_burp-all sfx-1.mp3::AudioStreamMP3::4805588254758109332::1718846736::1718846737::1::::<><>::
+soda_burp-Track 2-2.mp3::AudioStreamMP3::7277527808906090202::1718846736::1718846737::1::::<><>::
+swoosh-all sfx.mp3::AudioStreamMP3::2795385206018095741::1718846736::1718846737::1::::<><>::
+swordswing-all sfx.mp3::AudioStreamMP3::838877332259373492::1718846736::1718846737::1::::<><>::
+sword_clash1-sword sfx.mp3::AudioStreamMP3::8532486556727621321::1718846736::1718846737::1::::<><>::
+sword_clash2-sword sfx-all sfx.mp3::AudioStreamMP3::6576769375912166518::1718846736::1718846737::1::::<><>::
+sword_clash3-sword sfx-all sfx-all s.mp3::AudioStreamMP3::5080048187657017189::1718846736::1718846737::1::::<><>::
+upgradeequip-all sfx.mp3::AudioStreamMP3::1310568829465985107::1718846736::1718846737::1::::<><>::
+yell_mama-all sfx.mp3::AudioStreamMP3::5015524057608293746::1718846736::1718846737::1::::<><>::
+yeti talking 1-all sfx.mp3::AudioStreamMP3::4180285561601851074::1718846736::1718846737::1::::<><>::
 ::res://Code/::1714082522
-::res://Enemies/::1718822685
+::res://Enemies/::1718848149
 eye.gd::GDScript::-1::1718821694::0::1::::<>Node2D<>::
-eye.tscn::PackedScene::5359952658930583977::1718822685::0::1::::<><>::res://Enemies/eye.gd<>uid://c8afq32g7obxf::::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/fly-eye/fly-eye1.png<>uid://c54f6bcorhbwa::::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/fly-eye/fly-eye2.png<>uid://bc06okuy7mtae::::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/fly-eye/fly-eye3.png<>uid://ce82ngnrblgps::::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/fly-eye/fly-eye4.png
+eye.tscn::PackedScene::5359952658930583977::1718848149::0::1::::<><>::res://Enemies/eye.gd<>uid://c8afq32g7obxf::::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/fly-eye/fly-eye1.png<>uid://c54f6bcorhbwa::::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/fly-eye/fly-eye2.png<>uid://bc06okuy7mtae::::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/fly-eye/fly-eye3.png<>uid://ce82ngnrblgps::::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/fly-eye/fly-eye4.png
 skeleton.gd::GDScript::-1::1718821678::0::1::::<>Node2D<>::
-skeleton.tscn::PackedScene::2862858916605821958::1718822685::0::1::::<><>::uid://bl4m0b388xwmk::::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/skeleton-walk1.png<>res://Enemies/skeleton.gd<>uid://c5yh3nyyod1ic::::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/skeleton-walk2.png<>uid://dawsgj5bq3yla::::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/skeleton-walk3.png<>uid://of2e1rsuvt8u::::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/skeleton-walk4.png<>uid://clf6u72qor5lc::::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/skeleton-walk5.png<>uid://cgh18y5qg0chq::::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/skeleton-walk6.png<>uid://bnsyulcx888xc::::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/skeleton-walk7.png<>uid://cu6gnmcwf2bf3::::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/skeleton-walk8.png
-::res://Levels/::1718822684
-virticalSlice.tscn::PackedScene::6410842580335381771::1718822684::0::1::::<><>::uid://bwa7wya7rg65i::::res://assets/Super Grotto Escape Files/Environment/Layers/back.png<>uid://c0w85jvxchuh5::::res://assets/Super Grotto Escape Files/Environment/Layers/far.png<>uid://bodv7g7yjdwj0::::res://assets/Super Grotto Escape Files/Environment/Layers/middle.png<>uid://mrifyraysl2s::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset-2.png<>uid://cyekaodnxnvbk::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset.png<>uid://dxxffkrtwo6fd::::res://assets/Super Grotto Escape Files/Environment/Layers/props/plant-big.png<>uid://dymf87l2h10dm::::res://assets/Super Grotto Escape Files/Environment/Layers/props/plant.png<>uid://2qpqsnwk87i8::::res://assets/Super Grotto Escape Files/Environment/Layers/props/palm.png<>uid://un2e63mc30t7::::res://assets/Super Grotto Escape Files/Props/Previews/all-sprites.png<>uid://dgn6r35n5xxqf::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png<>uid://payt543kaycq::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery2.png<>uid://jjweuxw1uuqy::::res://health_item_pickup.tscn<>uid://ctqnvj8hrk3yi::::res://damage_zone.tscn<>uid://b6atsdvt0yrew::::res://Player.tscn<>uid://dix0kwtfpx6hg::::res://powerup.tscn<>uid://cimnvwui5b4y4::::res://Enemies/eye.tscn<>uid://bg114rrkxcfow::::res://Enemies/skeleton.tscn
+skeleton.tscn::PackedScene::2862858916605821958::1718848149::0::1::::<><>::uid://bl4m0b388xwmk::::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/skeleton-walk1.png<>res://Enemies/skeleton.gd<>uid://c5yh3nyyod1ic::::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/skeleton-walk2.png<>uid://dawsgj5bq3yla::::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/skeleton-walk3.png<>uid://of2e1rsuvt8u::::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/skeleton-walk4.png<>uid://clf6u72qor5lc::::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/skeleton-walk5.png<>uid://cgh18y5qg0chq::::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/skeleton-walk6.png<>uid://bnsyulcx888xc::::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/skeleton-walk7.png<>uid://cu6gnmcwf2bf3::::res://assets/Super Grotto Escape Files/Characters/Enemies/sprites/Skeleton-Walk/skeleton-walk8.png
+::res://Levels/::1718848149
+virticalSlice.tscn::PackedScene::6410842580335381771::1718848149::0::1::::<><>::uid://bwa7wya7rg65i::::res://assets/Super Grotto Escape Files/Environment/Layers/back.png<>uid://c0w85jvxchuh5::::res://assets/Super Grotto Escape Files/Environment/Layers/far.png<>uid://bodv7g7yjdwj0::::res://assets/Super Grotto Escape Files/Environment/Layers/middle.png<>uid://mrifyraysl2s::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset-2.png<>uid://cyekaodnxnvbk::::res://assets/Super Grotto Escape Files/Environment/Layers/tileset.png<>uid://dxxffkrtwo6fd::::res://assets/Super Grotto Escape Files/Environment/Layers/props/plant-big.png<>uid://dymf87l2h10dm::::res://assets/Super Grotto Escape Files/Environment/Layers/props/plant.png<>uid://2qpqsnwk87i8::::res://assets/Super Grotto Escape Files/Environment/Layers/props/palm.png<>uid://un2e63mc30t7::::res://assets/Super Grotto Escape Files/Props/Previews/all-sprites.png<>uid://dgn6r35n5xxqf::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png<>uid://payt543kaycq::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery2.png<>uid://jjweuxw1uuqy::::res://health_item_pickup.tscn<>uid://ctqnvj8hrk3yi::::res://damage_zone.tscn<>uid://b6atsdvt0yrew::::res://Player.tscn<>uid://dix0kwtfpx6hg::::res://powerup.tscn<>uid://cimnvwui5b4y4::::res://Enemies/eye.tscn<>uid://bg114rrkxcfow::::res://Enemies/skeleton.tscn
 ::res://Levels/Scenes/::1714082535
 ::res://Player/::1714089318
-::res://Player/Scripts/::1718820630
-Player.gd::GDScript::-1::1718820630::0::1::::Player<>CharacterBody2D<>::
-::res://UI/::1718822684
+::res://Player/Scripts/::1718847655
+Player.gd::GDScript::-1::1718847655::0::1::::Player<>CharacterBody2D<>::
+::res://UI/::1718848149
 health_item.gd::GDScript::-1::1715206679::0::1::::<>Panel<>::
-health_item.tscn::PackedScene::5767503342606908303::1718822684::0::1::::<><>::res://UI/health_item.gd<>uid://dgn6r35n5xxqf::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png
+health_item.tscn::PackedScene::5767503342606908303::1718848149::0::1::::<><>::res://UI/health_item.gd<>uid://dgn6r35n5xxqf::::res://assets/Super Grotto Escape Files/Props/Sprites/Battery/battery1.png

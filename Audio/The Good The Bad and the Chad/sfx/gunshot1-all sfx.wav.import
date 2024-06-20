@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dbf7hlc0sy3l"
+path="res://.godot/imported/gunshot1-all sfx.wav-e5cef452f9adfaa47eebc4dd76a68aa8.sample"
+
+[deps]
+
+source_file="res://Audio/The Good The Bad and the Chad/sfx/gunshot1-all sfx.wav"
+dest_files=["res://.godot/imported/gunshot1-all sfx.wav-e5cef452f9adfaa47eebc4dd76a68aa8.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

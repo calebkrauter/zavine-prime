@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://2po7u0k28cvk"
+path="res://.godot/imported/HMM1-all sfx.mp3-5bd431c8373915d795b97ea592708901.mp3str"
+
+[deps]
+
+source_file="res://Audio/The Good The Bad and the Chad/sfx/mp3/HMM1-all sfx.mp3"
+dest_files=["res://.godot/imported/HMM1-all sfx.mp3-5bd431c8373915d795b97ea592708901.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

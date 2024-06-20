@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bufe8lq7ts3vf"
+path="res://.godot/imported/firing2-all sfx.wav-97a2290260cf3dec9901ab11860c0183.sample"
+
+[deps]
+
+source_file="res://Audio/The Good The Bad and the Chad/sfx/firing2-all sfx.wav"
+dest_files=["res://.godot/imported/firing2-all sfx.wav-97a2290260cf3dec9901ab11860c0183.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

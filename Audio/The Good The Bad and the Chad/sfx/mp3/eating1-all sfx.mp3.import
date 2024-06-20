@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://c8eefhyy608du"
+path="res://.godot/imported/eating1-all sfx.mp3-c002663a0bcbd189b988be8052866e97.mp3str"
+
+[deps]
+
+source_file="res://Audio/The Good The Bad and the Chad/sfx/mp3/eating1-all sfx.mp3"
+dest_files=["res://.godot/imported/eating1-all sfx.mp3-c002663a0bcbd189b988be8052866e97.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

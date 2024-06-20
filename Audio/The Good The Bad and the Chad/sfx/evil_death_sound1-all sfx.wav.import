@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://xxnx2v7ftaum"
+path="res://.godot/imported/evil_death_sound1-all sfx.wav-559b87dba1fa7720b21b8bf37e7f712a.sample"
+
+[deps]
+
+source_file="res://Audio/The Good The Bad and the Chad/sfx/evil_death_sound1-all sfx.wav"
+dest_files=["res://.godot/imported/evil_death_sound1-all sfx.wav-559b87dba1fa7720b21b8bf37e7f712a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://qre1f00tl3at"
+path="res://.godot/imported/soda_burp2-all sfx-1-all sfx-1.mp3-4e31309e35e9c8c9c777221b7a323068.mp3str"
+
+[deps]
+
+source_file="res://Audio/The Good The Bad and the Chad/sfx/mp3/soda_burp2-all sfx-1-all sfx-1.mp3"
+dest_files=["res://.godot/imported/soda_burp2-all sfx-1-all sfx-1.mp3-4e31309e35e9c8c9c777221b7a323068.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
