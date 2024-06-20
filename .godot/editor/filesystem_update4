@@ -1,10 +1,9 @@
+res://Levels/virticalSlice.tscn
 res://IdlePlayerState.gd
 res://RunningPlayerState.gd
-res://audio_manager.tscn
-res://audio_manager.gd
-res://Player/Scripts/Player.gd
+res://Art/Textures/Tilesets/new_tile_set.tres
 res://Player.tscn
-res://Levels/virticalSlice.tscn
+res://virticalSlice.tscn
 res://UI/health_item.tscn
 res://health_container.tscn
 res://damage_zone.tscn
@@ -13,7 +12,5 @@ res://health_item.tscn
 res://Enemies/skeleton.tscn
 res://Enemies/eye.tscn
 res://projectile.tscn
-res://Projectile.gd
-res://default_bus_layout.tres
-res://health_item.gd
-res://powerup.gd
+res://audio_manager.tscn
+res://TestLevel.tscn

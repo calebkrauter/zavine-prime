@@ -1,0 +1,17 @@
+res://Art/Textures/Tilesets/new_tile_set.tres::20e6af54ab052f483bbfa93d6ea03717::1718907538::res://.godot/exported/133200997/export-5b24ad958dab0b8f35d7698501f2af27-new_tile_set.res
+res://Enemies/eye.tscn::65ce03278ceb6c31b69591b652962fde::1718907856::res://.godot/exported/133200997/export-ac3e61d76a88f61f9238b185c6d6d6b4-eye.scn
+res://Enemies/skeleton.tscn::42e841b64d87ec446c22f1ca1aa0b986::1718907856::res://.godot/exported/133200997/export-8538fc3f4ad3a65bf50f8505d0022e72-skeleton.scn
+res://UI/health_item.tscn::454c6077a6f1a0b56b9b05ed40f03f83::1718907856::res://.godot/exported/133200997/export-1736ba140b63abe51be3e4cc28be7768-health_item.scn
+res://audio_manager.tscn::e81f69a79967d2bae800486e31ccc5c4::1718907856::res://.godot/exported/133200997/export-8d1582d6c407af8af8edfea9ec86573e-audio_manager.scn
+res://damage_zone.tscn::1452384e8d4dea278add15b66c8487e1::1718907856::res://.godot/exported/133200997/export-1c920be58c58484f9b41227df3834202-damage_zone.scn
+res://default_bus_layout.tres::2f58b2713516629f97887876ea7b46ec::1718848144::res://.godot/exported/133200997/export-19246414aa9fb561ced4b8dce477acec-default_bus_layout.res
+res://health.tscn::c6cad59d1071f9021716d3f49f2d166a::1715143194::res://.godot/exported/133200997/export-ac16c50b72c252494da7c5491cc823fd-health.scn
+res://health_container.tscn::4de4332701107bc16784d39a0c0e4523::1718907856::res://.godot/exported/133200997/export-caf02bba4a8247101c248000d61b91f7-health_container.scn
+res://health_item.tscn::18226bd4c76af6b89a3fbad75dfc4756::1718907856::res://.godot/exported/133200997/export-add657a1b82ce9ed6d4eda51d71d99fb-health_item.scn
+res://health_item_pickup.tscn::7462dbf3fe6ee98a21410af1a382b3a9::1716413770::res://.godot/exported/133200997/export-22050fecf8516aee3dbf7fb6c1b34dc8-health_item_pickup.scn
+res://Player.tscn::ddc28cd4e9ea6bd2ef07967e5db5fd73::1718907856::res://.godot/exported/133200997/export-90e1ff3baa03524a506ff0f7a9d78dcf-Player.scn
+res://powerup.tscn::3dfca1ef44dc268ffd7dd2d16283766f::1718907856::res://.godot/exported/133200997/export-cc072762f388e09eaf9ed13f74a04dcd-powerup.scn
+res://projectile.tscn::3a155d4bf30e1effb32a5b4b009ed153::1718907856::res://.godot/exported/133200997/export-91c8f3c00cb04423be3420503ec3abc7-projectile.scn
+res://ui.tscn::2b0e7445a3e1f71915b97fa3f95b1dd2::1715142644::res://.godot/exported/133200997/export-5d2f649bfda0e984c5f95c948cc9f360-ui.scn
+res://user_interface.tscn::a1f6ab207fdf9e54769a3e8279504521::1715294021::res://.godot/exported/133200997/export-362d4056b94428cef297dfd0b8518bcb-user_interface.scn
+res://virticalSlice.tscn::33b958b535e50100c3a7c5f48195df22::1718907887::res://.godot/exported/133200997/export-7c02284b834abac4953efd9d1f4736de-virticalSlice.scn
